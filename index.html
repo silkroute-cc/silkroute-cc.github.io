@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="丝路文化交流中心">
+    <meta name="keywords" content="一带一路、丝绸之路、丝路、丝路文化、丝路文化交流中心、silk road、silk route">
+    <link rel="icon" href="/assets/images/favicon.png">
+    <title>
+      
+          絲路文化交流協會
+        
+       | 絲路文化交流協會
+    </title>
+    <meta name="author" content="絲路文化交流協會 https://silkroute.cc">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="/assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/icon.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/magnific.min.css">
+    <link rel="stylesheet" href="/assets/css/venobox.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <script src="/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKLND5NV35"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-SKLND5NV35');
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      // 图片URL映射规则 - 按优先级顺序排列
+      const mappings = [
+        // 完整URL - HTTPS（最高优先级）
+        {
+          old: "https://silkroute.cc/wp-content/uploads/",
+          new: "https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/"
+        },
+        // 完整URL - HTTP
+        {
+          old: "http://silkroute.cc/wp-content/uploads/",
+          new: "https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/"
+        },
+        // 相对路径（带前导斜杠）
+        {
+          old: "/wp-content/uploads/",
+          new: "/uploads/"
+        },
+        // 相对路径（无前导斜杠）- 处理站内相对路径
+        {
+          old: "wp-content/uploads/",
+          new: "uploads/"
+        }
+      ];
+      
+      function replaceImageUrl(url) {
+        if (!url) return url;
+        for (const { old, new: replacement } of mappings) {
+          if (url.includes(old)) {
+            return url.replace(old, replacement);
+          }
+        }
+        return url;
+      }
+    
+      function replaceSrcset(srcset) {
+        return srcset.split(",").map(item => {
+          const parts = item.trim().split(/\s+/);
+          parts[0] = replaceImageUrl(parts[0]);
+          return parts.join(" ");
+        }).join(", ");
+      }
+    
+      function processImage(img) {
+        ["src", "data-src", "data-lazy-src", "data-original"].forEach(attr => {
+          const v = img.getAttribute(attr);
+          if (v) img.setAttribute(attr, replaceImageUrl(v));
+        });
+    
+        ["srcset", "data-srcset"].forEach(attr => {
+          const v = img.getAttribute(attr);
+          if (v) img.setAttribute(attr, replaceSrcset(v));
+        });
+      }
+    
+      document.querySelectorAll("img").forEach(processImage);
+    
+      document.querySelectorAll("[style*='background-image']").forEach(el => {
+        const style = el.getAttribute("style");
+        if (style) {
+          el.setAttribute(
+            "style",
+            style.replace(/url\((['"]?)(.*?)\1\)/g, (m, q, url) =>
+              `url(${q}${replaceImageUrl(url)}${q})`
+            )
+          );
+        }
+      });
+    });
+    </script>
+    
+
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header>
+      <div class="topbar-area fix hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class=" col-md-8 col-sm-8">
+              <div class="topbar-left">
+                <ul>
+                  <li><a href="#"><i class="fa fa-map-marker"></i> 馬來西亞吉隆坡KLCC</a></li>
+                  <li><a href="#"><i class="fa fa-envelope"></i> silkroute.my.biz@gmail.com</a></li>
+                  <li><a href="#"><i class="fa fa-phone"></i> 0188709369</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="topbar-right">
+                <div class="top-social">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+                    <li><a href="#"><i class="fa fa-weixin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sticker" class="header-area hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+              <div class="logo">
+                <a style="padding-top: 40px;" class="navbar-brand page-scroll sticky-logo" href="/">
+                  <img src="/assets/images/logo.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-9">
+              <div class="header-right-link">
+                <form method="get" id="searchform" action="/">
+                  <div class="search-option">
+                    <input type="text" name="s" id="s" placeholder="Search...">
+                    <button class="button" type="submit"><i class="fa fa-search"></i></button>
+                  </div>
+                  <a class="main-search" href="#"><i class="fa fa-search"></i></a>
+                </form>
+              </div>
+              <nav class="navbar navbar-default">
+                <div class="collapse navbar-collapse" id="navbar-example">
+                  <div class="main-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a class="pagess" href="/categories/news/"><p style="margin:0;text-align: center;">最新動態</p><p  style="margin:0;text-align: center;">News</p></a></li>
+                    <li class="dropdown">
+                    <a class="pagess dropdown-toggle" href="/categories/business/" data-toggle="dropdown"><p style="margin:0;text-align: center;">企業商務</p><p  style="margin:0;text-align: center;">Business</p></a>
+                    <ul class="sub-menu">
+                    <li><a class="pagess" href="/business/"><p style="margin:0;">商務對接</p><p  style="margin:0;">Business Docking</p></a></li>
+                    <li><a class="pagess" href="/categories/organization/"><p style="margin:0;">企業風采</p><p  style="margin:0;">Corporate Style</p></a></li>
+                    <li><a class="pagess" href="/categories/corporateevents/"><p style="margin:0;">企業活動</p><p  style="margin:0;">Events</p></a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown">
+                    <a class="pagess dropdown-toggle" href="/categories/travel/" data-toggle="dropdown"><p style="margin:0;text-align: center;">文化旅游</p><p  style="margin:0;text-align: center;">Cul&TA</p></a>
+                    <ul class="sub-menu">
+                    <li><a class="pagess" href="/categories/malaysia/"><p style="margin:0;">馬來西亞特色文化</p><p  style="margin:0;">Malaysia</p></a></li>
+                    <li><a class="pagess" href="/categories/guideline/"><p style="margin:0;">馬來西亞攻略</p><p  style="margin:0;">Guideline</p></a></li>
+                    </ul>
+                    </li>
+                    <li><a class="pagess" href="/categories/study/"><p style="margin:0;text-align: center;">絲路留學</p><p  style="margin:0;text-align: center;">Study</p></a></li>
+                    <li><a class="pagess" href="/categories/showroom/"><p style="margin:0;text-align: center;">絲路視角</p><p  style="margin:0;text-align: center;">Perspective</p></a></li>
+                    <li><a class="pagess" href="/categories/publicwelfare/"><p style="margin:0;text-align: center;">絲路公益</p><p  style="margin:0;text-align: center;">Charitable</p></a></li>
+                    <li><a class="pagess" href="/about/"><p style="margin:0;text-align: center;">關於我們</p><p  style="margin:0;text-align: center;">About</p></a></li>
+                    </ul>
+    
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mobile-menu">
+                <div class="logo">
+                  <a href="/"><img src="/assets/images/logo.png" alt=""></a>
+                </div>
+                <nav id="dropdown">
+                  <ul>
+                  <li><a href="/categories/news/"><p style="margin:0;text-align: center;">最新動態</p><p  style="margin:0;text-align: center;">News</p></a></li>
+                  <li><a href="/categories/business/"><p style="margin:0;text-align: center;">企業商務</p><p  style="margin:0;text-align: center;">Business</p></a>
+                  <ul>
+                  <li><a href="/business/"><p style="margin:0;">商務對接</p><p  style="margin:0;">Business Docking</p></a></li>
+                  <li><a href="/categories/organization/"><p style="margin:0;">企業風采</p><p  style="margin:0;">Corporate Style</p></a></li>
+                  <li><a href="/categories/corporateevents/"><p style="margin:0;">企業活動</p><p  style="margin:0;">Events</p></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/categories/travel/"><p style="margin:0;text-align: center;">文化旅游</p><p  style="margin:0;text-align: center;">Cul&TA</p></a>
+                  <ul>
+                  <li><a href="/categories/malaysia/"><p style="margin:0;">馬來西亞特色文化</p><p  style="margin:0;">Malaysia</p></a></li>
+                  <li><a href="/categories/guideline/"><p style="margin:0;">馬來西亞攻略</p><p  style="margin:0;">Guideline</p></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/categories/study/"><p style="margin:0;text-align: center;">絲路留學</p><p  style="margin:0;text-align: center;">Study</p></a></li>
+                  <li><a href="/categories/showroom/"><p style="margin:0;text-align: center;">絲路視角</p><p  style="margin:0;text-align: center;">Perspective</p></a></li>
+                  <li><a href="/categories/publicwelfare/"><p style="margin:0;text-align: center;">絲路公益</p><p  style="margin:0;text-align: center;">Charitable</p></a></li>
+                  <li><a href="/about/"><p style="margin:0;text-align: center;">關於我們</p><p  style="margin:0;text-align: center;">About</p></a></li>
+                  </ul>
+    
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="intro-area">
+      <div class="main-overly"></div>
+      <div class="intro-carousel">
+        
+            <div class="intro-content">
+              <div class="slider-images">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7b9bfec0-9a6d-4c7e-9488-f2864698d68c/ef9c0bbd-a35b-4784-a0e2-9ca0f7a5ada5/slider-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666NIP4U2W%2F20260205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260205T193724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJIMEYCIQCjAJm6lQI%2BPF7%2FqDIqWbynvjrvwiWphNEkWpJS3CWoLgIhAOL7qUFJXX%2BQ77tTHKnbWHg3p0%2FS8BsIZHR%2FUmD5t9VQKv8DCDQQABoMNjM3NDIzMTgzODA1Igz8NW72dMY8d8XhbzQq3AMkeMZNLl%2BIW2eLdJda%2BOUvD4a8xjSclaNnMTpK8%2FrKGTRdmPLftXpGOcWCUmllnDEWzo0Ppa7IN17GzccIG3ygdTiQZ2ZUzUeV4LZirjNw0fazUyqvMn86irmc6fP1LcvNBqg9VFRSh935xp7%2FOzN67QzSx1ec%2FQmSOhblDEuPribiJlDy8SA9IDHNNgG8WxsXsazPMGjbYUCNcD0o48Thcr2%2FEHAMniCyWoJR1DJ%2F41YsZRnCS4BhLFQEfoAnlpZASI6wk2ER93sabni%2Fqd29swipskJmPb4DeSoilzi%2BnJJMeqTzq55HYmN%2FnN4H0tsBkITOd9HKtWW736tCdpdMdXLUCLY%2BO0D%2F9R7EcIrpmoxJJbxpVaNn2TUVpdODV4urV48fUYoDuTo7apcocRU92cw%2BAJt9oIKsBOKFBimPoYHWhfVkq1advoXVK4ISbuVtWSTbmckjQOMMFJJEHrpPd4K0%2Bp0BQ3sgFbdrW1Atmzca0e5MmYNAmEpRPA%2BzkEl2iSeJZNfzvCXN5sB%2FGwCfikOJnUMR2dOJz3P%2BKnzV1B4kxiOILHD4qHWmfmb1y%2F0nCHOm48RnQAZTdvMBLz2Q2c%2FpJvkng2DVos%2FaXaLH8SJASzjK5EUJKELoyzCZxZPMBjqkAWKtfhcC%2FfttCm%2F22ahXDfWQYfaMfH2YKdujtisCPub3b7%2BrhB3yenuxq%2B5LO5rveYKymQOZKBRSNQ%2Fhn8y%2FaSj7DkLlMTuvM5EF7tcDFq1k2SNtlPsljPBnTtC2CHSsAyxZAAxW3xyQmenhbO72tkGkMct%2FBfJFr7CtLVv6RqHCfOJcftuztVmmsKDD1eB7YbUeReUlLpYs68AlqOdjcLYKocap&X-Amz-Signature=b20ed54d228792b5fab6422c82de206e6066c85c4bd88b650e0e2360fbdce4ee&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject" alt="">
+              </div>
+              <div class="slider-content">
+                <div class="display-table">
+                  <div class="display-table-cell">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="layer-1-2">
+                            <h1 class="title2">絲路文化交流協會</h1>
+                          </div>
+                          <div class="layer-1-1 ">
+                            <p>國際文化交流、經貿合作</p>
+                          </div>
+                          <div class="layer-1-3"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="intro-content">
+              <div class="slider-images">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7b9bfec0-9a6d-4c7e-9488-f2864698d68c/9324d52b-2efe-4456-a9da-68550889f7b0/2022071802574619.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666NIP4U2W%2F20260205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260205T193724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJIMEYCIQCjAJm6lQI%2BPF7%2FqDIqWbynvjrvwiWphNEkWpJS3CWoLgIhAOL7qUFJXX%2BQ77tTHKnbWHg3p0%2FS8BsIZHR%2FUmD5t9VQKv8DCDQQABoMNjM3NDIzMTgzODA1Igz8NW72dMY8d8XhbzQq3AMkeMZNLl%2BIW2eLdJda%2BOUvD4a8xjSclaNnMTpK8%2FrKGTRdmPLftXpGOcWCUmllnDEWzo0Ppa7IN17GzccIG3ygdTiQZ2ZUzUeV4LZirjNw0fazUyqvMn86irmc6fP1LcvNBqg9VFRSh935xp7%2FOzN67QzSx1ec%2FQmSOhblDEuPribiJlDy8SA9IDHNNgG8WxsXsazPMGjbYUCNcD0o48Thcr2%2FEHAMniCyWoJR1DJ%2F41YsZRnCS4BhLFQEfoAnlpZASI6wk2ER93sabni%2Fqd29swipskJmPb4DeSoilzi%2BnJJMeqTzq55HYmN%2FnN4H0tsBkITOd9HKtWW736tCdpdMdXLUCLY%2BO0D%2F9R7EcIrpmoxJJbxpVaNn2TUVpdODV4urV48fUYoDuTo7apcocRU92cw%2BAJt9oIKsBOKFBimPoYHWhfVkq1advoXVK4ISbuVtWSTbmckjQOMMFJJEHrpPd4K0%2Bp0BQ3sgFbdrW1Atmzca0e5MmYNAmEpRPA%2BzkEl2iSeJZNfzvCXN5sB%2FGwCfikOJnUMR2dOJz3P%2BKnzV1B4kxiOILHD4qHWmfmb1y%2F0nCHOm48RnQAZTdvMBLz2Q2c%2FpJvkng2DVos%2FaXaLH8SJASzjK5EUJKELoyzCZxZPMBjqkAWKtfhcC%2FfttCm%2F22ahXDfWQYfaMfH2YKdujtisCPub3b7%2BrhB3yenuxq%2B5LO5rveYKymQOZKBRSNQ%2Fhn8y%2FaSj7DkLlMTuvM5EF7tcDFq1k2SNtlPsljPBnTtC2CHSsAyxZAAxW3xyQmenhbO72tkGkMct%2FBfJFr7CtLVv6RqHCfOJcftuztVmmsKDD1eB7YbUeReUlLpYs68AlqOdjcLYKocap&X-Amz-Signature=d3789c24f3834e710c53b3cde1e90b86fa55fe3162a3ea26f2e5058567b57e14&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject" alt="">
+              </div>
+              <div class="slider-content">
+                <div class="display-table">
+                  <div class="display-table-cell">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="layer-1-2">
+                            <h1 class="title2">一帶一路</h1>
+                          </div>
+                          <div class="layer-1-1 ">
+                            <p>“一帶一路”（The Belt and Road， 縮寫B&R）是“絲綢之路經濟帶”和“21世紀海上絲綢之路”的簡稱，2013年9月和10月由中國國家主席習近平分別提出建設“新絲綢之路經濟帶”和“21世紀海上絲綢之路”的合作倡議。</p>
+                          </div>
+                          <div class="layer-1-3"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="intro-content">
+              <div class="slider-images">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/7b9bfec0-9a6d-4c7e-9488-f2864698d68c/95b1ac0e-aca5-4aac-9d6d-f3df1719df83/2022071802573420.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666NIP4U2W%2F20260205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260205T193724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGsaCXVzLXdlc3QtMiJIMEYCIQCjAJm6lQI%2BPF7%2FqDIqWbynvjrvwiWphNEkWpJS3CWoLgIhAOL7qUFJXX%2BQ77tTHKnbWHg3p0%2FS8BsIZHR%2FUmD5t9VQKv8DCDQQABoMNjM3NDIzMTgzODA1Igz8NW72dMY8d8XhbzQq3AMkeMZNLl%2BIW2eLdJda%2BOUvD4a8xjSclaNnMTpK8%2FrKGTRdmPLftXpGOcWCUmllnDEWzo0Ppa7IN17GzccIG3ygdTiQZ2ZUzUeV4LZirjNw0fazUyqvMn86irmc6fP1LcvNBqg9VFRSh935xp7%2FOzN67QzSx1ec%2FQmSOhblDEuPribiJlDy8SA9IDHNNgG8WxsXsazPMGjbYUCNcD0o48Thcr2%2FEHAMniCyWoJR1DJ%2F41YsZRnCS4BhLFQEfoAnlpZASI6wk2ER93sabni%2Fqd29swipskJmPb4DeSoilzi%2BnJJMeqTzq55HYmN%2FnN4H0tsBkITOd9HKtWW736tCdpdMdXLUCLY%2BO0D%2F9R7EcIrpmoxJJbxpVaNn2TUVpdODV4urV48fUYoDuTo7apcocRU92cw%2BAJt9oIKsBOKFBimPoYHWhfVkq1advoXVK4ISbuVtWSTbmckjQOMMFJJEHrpPd4K0%2Bp0BQ3sgFbdrW1Atmzca0e5MmYNAmEpRPA%2BzkEl2iSeJZNfzvCXN5sB%2FGwCfikOJnUMR2dOJz3P%2BKnzV1B4kxiOILHD4qHWmfmb1y%2F0nCHOm48RnQAZTdvMBLz2Q2c%2FpJvkng2DVos%2FaXaLH8SJASzjK5EUJKELoyzCZxZPMBjqkAWKtfhcC%2FfttCm%2F22ahXDfWQYfaMfH2YKdujtisCPub3b7%2BrhB3yenuxq%2B5LO5rveYKymQOZKBRSNQ%2Fhn8y%2FaSj7DkLlMTuvM5EF7tcDFq1k2SNtlPsljPBnTtC2CHSsAyxZAAxW3xyQmenhbO72tkGkMct%2FBfJFr7CtLVv6RqHCfOJcftuztVmmsKDD1eB7YbUeReUlLpYs68AlqOdjcLYKocap&X-Amz-Signature=add88947cdbee8d1ca24aeb1460b2b56d066e0029477631f70d4453b7b1a6b7a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject" alt="">
+              </div>
+              <div class="slider-content">
+                <div class="display-table">
+                  <div class="display-table-cell">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="layer-1-2">
+                            <h1 class="title2">絲綢之路</h1>
+                          </div>
+                          <div class="layer-1-1 ">
+                            <p>絲綢之路，簡稱絲路，一般指陸上絲綢之路，廣義上講又分爲陸上絲綢之路和海上絲綢之路。</p>
+                          </div>
+                          <div class="layer-1-3"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+      </div>
+    </div>
+    <div class="services-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h3>服務項目</h3>
+              <p><h4>Services</h4></p>
+              <p>文化交流、經貿合作。</p>
+              <p>Cultural exchanges, economic and trade cooperation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="all-services">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-services" style="min-height: 270px;">
+                <a class="service-images" href="#"><i class="icon icon-layers"></i></a>
+                <div class="service-content">
+                  <h4>企業商務</h4>
+                  <p>為企業的健康發展和企業家的健康成長提供高端人脈資源、企業管理咨詢；可根據企業發展實際情況，提供一對一專家顧問給予咨詢、實地考察調研、落地的支持和幫助。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-services" style="min-height: 270px;">
+                <a class="service-images" href="#"><i class="icon icon-apartment"></i></a>
+                <div class="service-content">
+                  <h4>文化教育</h4>
+                  <p>邀請知名企業家、專家學者、青年學生舉辦主題文化論壇以及系列專題講座。</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-services" style="min-height: 270px;">
+                <a class="service-images" href="#"><i class="icon icon-magic-wand"></i></a>
+                <div class="service-content">
+                  <h4>絲路内刊</h4>
+                  <p>絲路文化交流中心為各會員單位提供有高度、有内容、有質量的各類資訊，并整理成冊，免費分發。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center"><h3>最新動態</h3><h4>News</h4></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="blog-grid home-blog">
+            
+                    
+                    
+                    
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="single-blog">
+                        <div class="blog-image">
+                          <a class="image-scale" href="/5829/">
+                            <img src="/assets/images/noneimg-news.jpg">
+                          </a>
+                        </div>
+                        <div class="blog-content">
+                          <div class="blog-title">
+                            <div class="blog-meta">
+                              <span class="date-type js-format-date" data-date="15 Jan 2026"></span>
+                            </div>
+                            <a href="/5829/"><h4 class="blog-card-title">“马中文艺交流晚会”芙蓉首演热爆　蔡亲炀电子萨克斯惊喜助阵掀高潮</h4></a>
+                          </div>
+                          <div class="blog-text">
+                            
+                            
+                            
+                            <div class="summary-source" style="display:none;"><img src="https://silkroute.cc/wp-content/uploads/2026/01/image-2.jpg" alt="" />
+    <p>“2026马中文艺交流晚会”芙蓉首演全场爆满，逾2200名观众共赴跨国文化盛宴。</p>
+    <p>（芙蓉15日讯）汇聚马来西亚与中国两国艺术团队的“2026马中文艺交流晚会”，昨晚在芙蓉隆重首演，吸引逾2200名观众到场共襄盛举。全晚共呈献19项高水准文艺节目，为观众带来一场震撼人心的跨国文化视听飨宴。</p>
+    <p>晚会其中一大亮点，莫过于芙蓉中华中学校长蔡亲炀临时惊喜登场，以电子萨克斯风吹奏经典歌曲《海阔天空》，瞬间点燃全场气氛。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-3-1024x682.jpg" alt="" />
+    <p>观众随旋律齐声合唱，纷纷亮起手机灯光，现场宛如大型演唱会，掌声与欢呼声此起彼落，气氛沸腾。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-4-1024x768.jpg" alt="" />
+    <p>蔡亲炀惊喜登场，以电子萨克斯演奏《海阔天空》，引发全场大合唱与手机灯海。</p>
+    <p>晚会以“艺马当先&#183;马中同行”为主题，是由芙蓉国会议员服务中心主办，芙蓉中华中学协办。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-5-1024x770.jpg" alt="" />
+    <p>表演者走入观众席派发糖果互动，陆兆福（左3）及欧阳玉靖等嘉宾亦喜获糖果。</p>
+    <p>芙蓉作为首站演出，门票需求反应热烈，主办方多次加码，最终准备的2200张入场票全数被索取一空，为系列演出打响亮丽头炮。</p>
+    <p>演出节目由中国广西柳州演艺集团与芙蓉中华中学联合呈献。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-6-1024x418.jpg" alt="" />
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-7-1024x683.jpg" alt="" />
+    <p>芙中精心遴选30位曾在各类文艺比赛中荣获冠军的学生精英登台演出，透过艺术展现我国青年才华与文化底蕴，与中方艺术团进行深度文化交流。</p>
+    <p>中国广西柳州演艺集团接下来将移师马六甲（16日）及文冬（18日），继续展开另外两场精彩演出。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-8-1024x854.jpg" alt="" />
+    <p>中方演出团队呈献多元民族歌舞，展现不同族群的独特舞姿与文化魅力。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-9-1024x770.jpg" alt="" />
+    <p>演出者带来葫芦丝与华乐演奏，精湛技艺赢得观众一致赞赏。</p>
+    <p>整场晚会所呈献的节目，多为平日仅能在中国欣赏到的高水准文艺演出，精湛表现令观众耳目一新，并多次报以热烈掌声。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-10-1024x683.jpg" alt="" />
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-11-1024x682.jpg" alt="" />
+    <p>粤剧与戏曲秀轮番登场，为晚会增添传统艺术风采。</p>
+    <p>团队昨晚亦精心策划节目安排，以热力四射的开场舞《大马新年最热闹》为文化演出掀开序幕，瞬间点燃全场气氛；同时，甄选马来西亚歌手阿牛陈庆祥的经典歌曲《桃花朵朵开》纳入演出阵容，为晚会增添浓厚的本土文化色彩与喜庆氛围。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-12-1024x770.jpg" alt="" />
+    <p>节目内容也涵盖演唱、舞蹈、印象国乐、粤剧、街舞、器乐、苗族舞蹈及戏曲秀等；芙蓉中华中学则呈献二十四节令鼓、华乐演奏及街舞表演，展现多元且富创意的文化风貌。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-13-1024x558.jpg" alt="" />
+    <p>芙蓉中华中学呈献二十四节令鼓与街舞，展现年轻世代的文化活力。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-14-1024x544.jpg" alt="" />
+    <p>出席嘉宾包括开幕嘉宾交通部长兼芙蓉国会议员陆兆福、中国驻马来西亚大使欧阳玉靖与夫人宋晓梅、森美兰州多位国州议员、158个森州华团代表及来自51所中小学的师生。</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-15-1024x748.jpg" alt="" />
+    <p>陆兆福（右3）、欧阳玉靖贤伉俪（左起）及一众嘉宾受表演者邀请，到台上共舞。</p>
+    <p>此外，大会亦邀请大马知名时尚设计师何国纶，为欧阳玉靖大使特别订制一套融合马中元素的峇迪礼服，作为具象征意义的纪念品。</p>
+    <p>主办单位亦温馨提醒，所有入场票采用“一票两用”方式，票根背面附有刮刮乐，持票者可于2月7日至15日，每晚傍晚6时至晚上11时，前往芙蓉世纪花园空地的森州政府主办“森州新年年货市集”柜台兑换礼物。</p>
+    <p>本站部分内容整理自公开网络资料，若侵犯了您的隐私或版权，请及时联系我们，我们将迅速处理或删除相关信息。<a href="https://www.orientaldaily.com.my/news/central/2026/01/15/790561">阅读原文</a></p>
+            </div>
+                            <p class="blog-summary"></p>
+                            <a class="blog-btn" href="/5829/">更多</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="single-blog">
+                        <div class="blog-image">
+                          <a class="image-scale" href="/5828/">
+                            <img src="/assets/images/noneimg-news.jpg">
+                          </a>
+                        </div>
+                        <div class="blog-content">
+                          <div class="blog-title">
+                            <div class="blog-meta">
+                              <span class="date-type js-format-date" data-date="09 Jan 2026"></span>
+                            </div>
+                            <a href="/5828/"><h4 class="blog-card-title">春节在马来西亚槟城体验沉浸式庙会</h4></a>
+                          </div>
+                          <div class="blog-text">
+                            
+                            
+                            
+                            <div class="summary-source" style="display:none;"><img src="https://silkroute.cc/wp-content/uploads/2026/01/image-564x1024.webp" alt="" />
+    <p>本站部分内容整理自公开网络资料，若侵犯了您的隐私或版权，请及时联系我们，我们将迅速处理或删除相关信息。<a href="https://mp.weixin.qq.com/s?__biz=MzA3NjE2NDAyOQ%3D%3D&amp;mid=2650316218&amp;idx=1&amp;sn=2b14171ff53b3ca2a7bb8d0d1f067d0f&amp;chksm=868e95a0946ea03b23157425a2f4dda6c35f98b37d8e2b6924acddc74658d316d7c82caeb498&amp;forbs=1&amp;scene=126&amp;subscene=91&amp;sessionid=1767957382&amp;flutter_pos=0&amp;clicktime=1767957411&amp;enterid=1767957411&amp;finder_biz_enter_id=5&amp;jumppath=ChattingUIFragment_1767957386318%2CMMFlutterViewActivity_1767957388043%2CBizFansConversationListUI_1767957402670%2C50094_1767957404061&amp;jumppathdepth=4&amp;ascene=56&amp;fasttmpl_type=0&amp;fasttmpl_fullversion=8072782-zh_CN-zip&amp;fasttmpl_flag=0&amp;realreporttime=1767957411396&amp;devicetype=android-36&amp;version=28004243&amp;nettype=WIFI&amp;abtest_cookie=AAACAA%3D%3D&amp;lang=zh_CN&amp;session_us=gh_35afc838fa31&amp;countrycode=MY&amp;exportkey=n_ChQIAhIQxKl%2BqAW8H%2BDB2C2hEnGPYxLoAQIE97dBBAEAAAAAAJf%2BCvZACLIAAAAOpnltbLcz9gKNyK89dVj045VSP%2FIY8WL1fZzUGEv2YenKiiRbSgUinqlQIY%2BSXqZxozw22QaMq0GsCw4cqubjgcnDqBBETKqd0ZbZ5KYcTFVCpWcRSw5jLAl5bdfzY5vRpJrxvu0Ub5tuIm515YHRbEFnCAcuhBNcwtQ%2FdFFQVZ7fCOkhcdZgpf7gA6txNqejWVrDflFHhO7NjaVhkSg4PzpD1be%2BcQw5Ue5HB53AU86jW%2BpN3QuAqoJ50JqH7tdiJS2D373nX8n8%2FjOLyoqMw0I%3D&amp;pass_ticket=erbRWsAMNC2w2Nc4KkTbtcNR38AfhnQbBVk94K35wW2oZeRyBxMWe1eNCDiY%2BZE7&amp;wx_header=3">阅读原文</a></p>
+            </div>
+                            <p class="blog-summary"></p>
+                            <a class="blog-btn" href="/5828/">更多</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="single-blog">
+                        <div class="blog-image">
+                          <a class="image-scale" href="/5827/">
+                            <img src="/assets/images/noneimg-news.jpg">
+                          </a>
+                        </div>
+                        <div class="blog-content">
+                          <div class="blog-title">
+                            <div class="blog-meta">
+                              <span class="date-type js-format-date" data-date="08 Jan 2026"></span>
+                            </div>
+                            <a href="/5827/"><h4 class="blog-card-title">旅马熊猫“辰星”“晓月”已完成隔离　将在近日开放</h4></a>
+                          </div>
+                          <div class="blog-text">
+                            
+                            
+                            
+                            <div class="summary-source" style="display:none;"><img src="https://silkroute.cc/wp-content/uploads/2026/01/image.jpg" alt="" />
+    <p>（吉隆坡8日讯） 天然资源及环境永续部长拿督斯里亚瑟古律表示，旅熊猫“辰星”与“晓月”完成隔离检疫期，中国已同意，在国家动物园熊猫保护中心向公众开放，并会在近期公布开放日期。</p>
+    <p>他今日发出文告说，这对于2025年11月18日从中国抵马的大熊猫——“辰星”（雄性）与“晓月”（雌性），已顺利完成隔离观察，因此获得中方批准，在国家动物园熊猫保护中心对外开放。</p>
+    <p>亚瑟古律指出，日前官访国家动物园访，亲自视察已完成升级的大熊猫保育中心设施，以及了解这对大熊猫配对情况。</p>
+    <p>他表示，对于国家动物园熊猫保护中心在提升大熊猫福利及游客舒适度方面的整体设施感到满意，包括主要展区、室内设计、景观美化，以及在天然资源及环境永续部拨款下，更换空调制冷机。</p>
+    <p>“我也听取了来自中国及国家动物园兽医专家就这对大熊猫健康状况的汇报，整体而言健康状况良好。参观期间，‘辰星’与‘晓月’展现出正常且活跃的行为，显示其适应情况良好。”</p>
+    <img src="https://silkroute.cc/wp-content/uploads/2026/01/image-1.jpg" alt="" />
+    <p>他强调，“辰星”与“晓月”不仅是保育合作的一部分，也象征马来西亚与中国之间的外交关系，旨在进一步加强两国合作。</p>
+    <p>“迄今为止，中国已与包括马来西亚在内的20个国家展开大熊猫保育与科研方面的国际合作。”</p>
+    <p>他在文告中提及，马中双方的合作协议是在中国国家主席习近平于去年4月16日对马来西亚进行国事访问期间签署的。</p>
+    <p>该协议由大马半岛野生动物保护及国家公园局（PERHILITAN）与中国野生动物保护协会（CWCA）共同签署，将使马来西亚从2025年至2035年期间接收一对新的大熊猫，为期10年。</p>
+    <p>亚瑟古律还说，此次工作访问亦有多名官员陪同，包括天然资源及环境永续部副部长赛伊布拉欣赛诺、天然资源及环境永续部秘书长拿督晋都金、天然资源及环境永续部副秘书长拿督玛斯里扎尔、大马半岛野生动物保护及国家公园局总监拿督阿都卡迪尔，以及负责管理国家动物园的马来西亚动物学会代表。</p>
+    <p>他补充，昌明政府透过天然资源及环境永续部所展现的承诺，符合“昌明大马”框架下的永续原则，并透过，国际外交合作，持续加强对濒危物种的保育工作。</p>
+    <p>本站部分内容整理自公开网络资料，若侵犯了您的隐私或版权，请及时联系我们，我们将迅速处理或删除相关信息。<a href="https://www.orientaldaily.com.my/news/nation/2026/01/08/788947">阅读原文</a></p>
+            </div>
+                            <p class="blog-summary"></p>
+                            <a class="blog-btn" href="/5827/">更多</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+    (function () {
+      var cards = document.querySelectorAll('.home-blog .single-blog');
+      for (var i = 0; i < cards.length; i++) {
+        var card = cards[i];
+        var source = card.querySelector('.summary-source');
+        var target = card.querySelector('.blog-summary');
+        if (!source || !target) continue;
+        var text = source.textContent || '';
+        text = text.replace(/\s+/g, ' ').trim();
+        if (text) {
+          target.textContent = text;
+        }
+      }
+    })();
+    </script>
+    <script>
+    (function () {
+      var nodes = document.querySelectorAll('.js-format-date');
+      for (var i = 0; i < nodes.length; i++) {
+        var el = nodes[i];
+        var raw = el.getAttribute('data-date');
+        if (!raw) continue;
+        var d = new Date(raw);
+        if (isNaN(d.getTime())) continue;
+        var text = d.getFullYear() + '年' + (d.getMonth() + 1) + '月' + d.getDate() + '日';
+        el.textContent = text;
+      }
+    })();
+    </script>
+
+    <footer>
+      <div class="footer-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-4 col-xs-12">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <h4 style="margin-bottom: 0;">聯係方式</h4>
+                  <h4>Contact</h4>
+                  <p>歡迎通過以下方式與我們聯係</p>
+                  <div class="footer-contacts">
+                    <p><span>電話(Phone)：</span> 0188709369</p>
+                    <p><span>郵箱(Email)：</span> silkroute.my.biz@gmail.com</p>
+                    <p><span>地址(Address)：</span> 馬來西亞吉隆坡KLCC</p>
+                  </div>
+                  <div class="footer-icons">
+                    <ul>
+                      <li><a href=""><i class="fa fa-weibo"></i></a></li>
+                      <li><a href=""><i class="fa fa-weixin"></i></a></li>
+                      <li><a href=""><i class="fa fa-qq"></i></a></li>
+                      <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12">
+              <div class="footer-content last-content">
+                <div class="footer-head">
+                  <h4 style="margin-bottom: 0;">關注我們</h4>
+                  <h4>Follow us</h4>
+                  <p><img src="/assets/uploads/2022/11/2022110607385872.png" alt="關注微信公衆號"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-area-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="copyright">
+                <p>Copyright &copy; &nbsp;2010-2026 <a href="/">絲路文化交流協會</a> All Rights Reserved. <a href="http://beian.miit.gov.cn/" target="_blank"></a></p>
+                <p>技術支持：<a href="https://www.muker.cc/">穆客智能</a></p>
+                <span style="display:none;"></span>
+                <span style="display:none;"></span>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="jianzhanyes text-right">
+                <p style="display:none">&#84;&#104;&#101;&#109;&#101;&#32;&#98;&#121; <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#119;&#119;&#119;&#46;&#106;&#105;&#97;&#110;&#122;&#104;&#97;&#110;&#112;&#114;&#101;&#115;&#115;&#46;&#99;&#111;&#109;" target="_blank">&#87;&#111;&#114;&#100;&#80;&#114;&#101;&#115;&#115;</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/waypoints.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/jquery.stellar.min.js"></script>
+    <script src="/assets/js/magnific.min.js"></script>
+    <script src="/assets/js/venobox.min.js"></script>
+    <script src="/assets/js/jquery.meanmenu.js"></script>
+    <script src="/assets/js/form-validator.min.js"></script>
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var items = document.querySelectorAll(".blog-area .date-type");
+        for (var i = 0; i < items.length; i++) {
+          var t = items[i].textContent.replace(/\s+/g, " ").trim();
+          var m = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+          if (!m) continue;
+          var month = parseInt(m[1], 10);
+          var day = parseInt(m[2], 10);
+          var year = m[3];
+          items[i].textContent = year + "年" + month + "月" + day + "日";
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var nodes = document.querySelectorAll(".js-format-date");
+        for (var i = 0; i < nodes.length; i++) {
+          var el = nodes[i];
+          var raw = el.getAttribute("data-date");
+          if (!raw) continue;
+          var d = new Date(raw);
+          if (isNaN(d.getTime())) continue;
+          el.textContent = d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日";
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="丝路文化交流中心">
+    <meta name="keywords" content="一带一路、丝绸之路、丝路、丝路文化、丝路文化交流中心、silk road、silk route">
+    <link rel="icon" href="/assets/images/favicon.png">
+    <title>
+      
+          news
+        
+       | 絲路文化交流協會
+    </title>
+    <meta name="author" content="絲路文化交流協會 https://silkroute.cc">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="/assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/icon.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/magnific.min.css">
+    <link rel="stylesheet" href="/assets/css/venobox.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <script src="/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKLND5NV35"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-SKLND5NV35');
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      // 图片URL映射规则 - 按优先级顺序排列
+      const mappings = [
+        // 完整URL - HTTPS（最高优先级）
+        {
+          old: "https://silkroute.cc/wp-content/uploads/",
+          new: "https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/"
+        },
+        // 完整URL - HTTP
+        {
+          old: "http://silkroute.cc/wp-content/uploads/",
+          new: "https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/"
+        },
+        // 相对路径（带前导斜杠）
+        {
+          old: "/wp-content/uploads/",
+          new: "/uploads/"
+        },
+        // 相对路径（无前导斜杠）- 处理站内相对路径
+        {
+          old: "wp-content/uploads/",
+          new: "uploads/"
+        }
+      ];
+      
+      function replaceImageUrl(url) {
+        if (!url) return url;
+        for (const { old, new: replacement } of mappings) {
+          if (url.includes(old)) {
+            return url.replace(old, replacement);
+          }
+        }
+        return url;
+      }
+    
+      function replaceSrcset(srcset) {
+        return srcset.split(",").map(item => {
+          const parts = item.trim().split(/\s+/);
+          parts[0] = replaceImageUrl(parts[0]);
+          return parts.join(" ");
+        }).join(", ");
+      }
+    
+      function processImage(img) {
+        ["src", "data-src", "data-lazy-src", "data-original"].forEach(attr => {
+          const v = img.getAttribute(attr);
+          if (v) img.setAttribute(attr, replaceImageUrl(v));
+        });
+    
+        ["srcset", "data-srcset"].forEach(attr => {
+          const v = img.getAttribute(attr);
+          if (v) img.setAttribute(attr, replaceSrcset(v));
+        });
+      }
+    
+      document.querySelectorAll("img").forEach(processImage);
+    
+      document.querySelectorAll("[style*='background-image']").forEach(el => {
+        const style = el.getAttribute("style");
+        if (style) {
+          el.setAttribute(
+            "style",
+            style.replace(/url\((['"]?)(.*?)\1\)/g, (m, q, url) =>
+              `url(${q}${replaceImageUrl(url)}${q})`
+            )
+          );
+        }
+      });
+    });
+    </script>
+    
+
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header>
+      <div class="topbar-area fix hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class=" col-md-8 col-sm-8">
+              <div class="topbar-left">
+                <ul>
+                  <li><a href="#"><i class="fa fa-map-marker"></i> 馬來西亞吉隆坡KLCC</a></li>
+                  <li><a href="#"><i class="fa fa-envelope"></i> silkroute.my.biz@gmail.com</a></li>
+                  <li><a href="#"><i class="fa fa-phone"></i> 0188709369</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="topbar-right">
+                <div class="top-social">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+                    <li><a href="#"><i class="fa fa-weixin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sticker" class="header-area hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+              <div class="logo">
+                <a style="padding-top: 40px;" class="navbar-brand page-scroll sticky-logo" href="/">
+                  <img src="/assets/images/logo.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-9">
+              <div class="header-right-link">
+                <form method="get" id="searchform" action="/">
+                  <div class="search-option">
+                    <input type="text" name="s" id="s" placeholder="Search...">
+                    <button class="button" type="submit"><i class="fa fa-search"></i></button>
+                  </div>
+                  <a class="main-search" href="#"><i class="fa fa-search"></i></a>
+                </form>
+              </div>
+              <nav class="navbar navbar-default">
+                <div class="collapse navbar-collapse" id="navbar-example">
+                  <div class="main-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a class="pagess" href="/categories/news/"><p style="margin:0;text-align: center;">最新動態</p><p  style="margin:0;text-align: center;">News</p></a></li>
+                    <li class="dropdown">
+                    <a class="pagess dropdown-toggle" href="/categories/business/" data-toggle="dropdown"><p style="margin:0;text-align: center;">企業商務</p><p  style="margin:0;text-align: center;">Business</p></a>
+                    <ul class="sub-menu">
+                    <li><a class="pagess" href="/business/"><p style="margin:0;">商務對接</p><p  style="margin:0;">Business Docking</p></a></li>
+                    <li><a class="pagess" href="/categories/organization/"><p style="margin:0;">企業風采</p><p  style="margin:0;">Corporate Style</p></a></li>
+                    <li><a class="pagess" href="/categories/corporateevents/"><p style="margin:0;">企業活動</p><p  style="margin:0;">Events</p></a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown">
+                    <a class="pagess dropdown-toggle" href="/categories/travel/" data-toggle="dropdown"><p style="margin:0;text-align: center;">文化旅游</p><p  style="margin:0;text-align: center;">Cul&TA</p></a>
+                    <ul class="sub-menu">
+                    <li><a class="pagess" href="/categories/malaysia/"><p style="margin:0;">馬來西亞特色文化</p><p  style="margin:0;">Malaysia</p></a></li>
+                    <li><a class="pagess" href="/categories/guideline/"><p style="margin:0;">馬來西亞攻略</p><p  style="margin:0;">Guideline</p></a></li>
+                    </ul>
+                    </li>
+                    <li><a class="pagess" href="/categories/study/"><p style="margin:0;text-align: center;">絲路留學</p><p  style="margin:0;text-align: center;">Study</p></a></li>
+                    <li><a class="pagess" href="/categories/showroom/"><p style="margin:0;text-align: center;">絲路視角</p><p  style="margin:0;text-align: center;">Perspective</p></a></li>
+                    <li><a class="pagess" href="/categories/publicwelfare/"><p style="margin:0;text-align: center;">絲路公益</p><p  style="margin:0;text-align: center;">Charitable</p></a></li>
+                    <li><a class="pagess" href="/about/"><p style="margin:0;text-align: center;">關於我們</p><p  style="margin:0;text-align: center;">About</p></a></li>
+                    </ul>
+    
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mobile-menu">
+                <div class="logo">
+                  <a href="/"><img src="/assets/images/logo.png" alt=""></a>
+                </div>
+                <nav id="dropdown">
+                  <ul>
+                  <li><a href="/categories/news/"><p style="margin:0;text-align: center;">最新動態</p><p  style="margin:0;text-align: center;">News</p></a></li>
+                  <li><a href="/categories/business/"><p style="margin:0;text-align: center;">企業商務</p><p  style="margin:0;text-align: center;">Business</p></a>
+                  <ul>
+                  <li><a href="/business/"><p style="margin:0;">商務對接</p><p  style="margin:0;">Business Docking</p></a></li>
+                  <li><a href="/categories/organization/"><p style="margin:0;">企業風采</p><p  style="margin:0;">Corporate Style</p></a></li>
+                  <li><a href="/categories/corporateevents/"><p style="margin:0;">企業活動</p><p  style="margin:0;">Events</p></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/categories/travel/"><p style="margin:0;text-align: center;">文化旅游</p><p  style="margin:0;text-align: center;">Cul&TA</p></a>
+                  <ul>
+                  <li><a href="/categories/malaysia/"><p style="margin:0;">馬來西亞特色文化</p><p  style="margin:0;">Malaysia</p></a></li>
+                  <li><a href="/categories/guideline/"><p style="margin:0;">馬來西亞攻略</p><p  style="margin:0;">Guideline</p></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/categories/study/"><p style="margin:0;text-align: center;">絲路留學</p><p  style="margin:0;text-align: center;">Study</p></a></li>
+                  <li><a href="/categories/showroom/"><p style="margin:0;text-align: center;">絲路視角</p><p  style="margin:0;text-align: center;">Perspective</p></a></li>
+                  <li><a href="/categories/publicwelfare/"><p style="margin:0;text-align: center;">絲路公益</p><p  style="margin:0;text-align: center;">Charitable</p></a></li>
+                  <li><a href="/about/"><p style="margin:0;text-align: center;">關於我們</p><p  style="margin:0;text-align: center;">About</p></a></li>
+                  </ul>
+    
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+      
+    
+    
+      
+      
+      
+    
+    
+    <div class="page-area">
+      <div class="breadcumb-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="breadcrumb text-center">
+              <div class="section-headline white-headline text-center">
+                <h3 class="js-category-title">news</h3>
+              </div>
+              <ul>
+                <li class="home-bread">首页</li>
+                <li class="js-category-title">news</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h3 class="js-category-title">news</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="blog-grid home-blog">
+            
+                      
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5285/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="10 Nov 2024"></span>
+                                </div>
+                                <a href="/5285/"><h4 class="blog-card-title">“我在大美新疆等你”——2024新疆秋冬季旅游资源推介会成功举办</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">11月5日晚，“我在大美新疆等你”——2024新疆秋冬季旅游资源推介会在吉隆坡举办，郑学方临时代办、马来西亚国家旅游促进局副局长李泰康、吉隆坡中国文化中心主任韩宁、新疆维吾尔自治区文化和旅游厅副厅长燕乃敏，以及中马文化和旅游领域等各界嘉宾约160人出席活动。 郑代办表示，新疆是连接东西方贸易和文明对话的重要区域，已发展成为高质量发展和高水平对外开放的前沿。大美新疆，美在山河壮丽、人文璀璨、开放奋进，欢迎马来西亚宾客到新疆旅游观光、投资兴业，中国驻马来西亚大使馆将一如既往…</p>
+                                <a class="blog-btn" href="/5285/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5284/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="10 Nov 2024"></span>
+                                </div>
+                                <a href="/5284/"><h4 class="blog-card-title">马来西亚总理安瓦尔会见恩捷股份董事长李晓明一行</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">来源：恩捷股份 来源： 阅读原文</p>
+                                <a class="blog-btn" href="/5284/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5283/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="10 Nov 2024"></span>
+                                </div>
+                                <a href="/5283/"><h4 class="blog-card-title">吉兰丹世界级生物燃料生产设施</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">（吉隆坡8日讯）Standard Energy Asia（SEA）私人有限公司与丹州务大臣机构（PMBK）达成战略合作，共同开发位于吉兰丹督巴里港附近的世界级生物燃料生产设施。 建设计划将在明年首季开始，预计于2026年首季开始营运，设施将配备先进处理技术，确保尽量减低对环境的影响，同时最大化生产效率。 “初期将生产每年5000吨生物燃料，计划在全面投产后增产至24000吨。” 该项目将使用废弃食油（UCO）和其他永续生物质材料作为原料，支持循环经济，并减少区域…</p>
+                                <a class="blog-btn" href="/5283/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5282/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="06 Nov 2024"></span>
+                                </div>
+                                <a href="/5282/"><h4 class="blog-card-title">中国驻马来西亚大使馆举办2024年“领保进校园”主题宣讲活动</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">11月5日，中国驻马来西亚大使馆在世纪大学举办2024年“领保进校园”主题宣讲活动，郑学方临时代办和世纪大学校长郑玉美院士出席并致辞，来自世纪大学、马来亚大学、博特拉大学、马来西亚国立大学、英迪大学、泰莱大学、思特雅大学等多所马来西亚学校的留学生近300人参加。 郑学方代办表示，今年是中马两国建交50周年暨“中马友好年”，双方高层交往频密，在教育等领域交流合作空前活跃，成果突出。中国留学生是国家的宝贵财富，也是中马友好关系的见证者和推动者、两国教育和文化交流的桥梁纽带，…</p>
+                                <a class="blog-btn" href="/5282/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5281/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="06 Nov 2024"></span>
+                                </div>
+                                <a href="/5281/"><h4 class="blog-card-title">马六甲，一切都好像和以前一样...</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">来源： 阅读原文</p>
+                                <a class="blog-btn" href="/5281/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5272/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="05 Nov 2024"></span>
+                                </div>
+                                <a href="/5272/"><h4 class="blog-card-title">古晋低碳天然气中心 预计为砂吸引2000亿投资</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">（古晋31日讯）古晋低碳天然气中心预计将为砂拉越吸引高达2000亿令吉的投资。 砂总理拿督巴丁宜阿邦佐哈里指出，古晋低碳天然气中心将成为砂拉越可持续未来愿景的基石。建立在砂天然气路线图的基础上，此计划将为古晋带来天然气，开发世界一流的碳捕集和储存（CCS）基础设施，并解锁砂西部的海上天然气开发。 他表示，古晋低碳天然气中心辅以新深海港口等关键基础设施，有望为砂拉越吸引高达2000亿令吉的投资。 他提到，位于丹绒恩邦附近的离岸港口将拥有更大的深度以容纳更大船只，从…</p>
+                                <a class="blog-btn" href="/5272/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5273/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="05 Nov 2024"></span>
+                                </div>
+                                <a href="/5273/"><h4 class="blog-card-title">砂捞越总理：砂需384亿令吉 建1292公里新路</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">(古晋30日讯)砂拉越政府需要高达384亿令吉的款项﹐以用以建设1292公里新路﹑并提升现有的4782公里道路﹐从而让内陆地区的逾1300个居住区﹐得以因此享有道路连接便利。 砂拉越总理拿督巴丁宜阿邦佐哈里是在今午举行的与砂拉越政府针对第十三大马计划进行对话活动上致词时﹐如是表示。由于其不克出席﹐所以其讲词由砂副总理拿督阿玛道格拉斯代读。 “境内目前共有8万6000户家庭未获得食水供应﹐且需要200亿令吉的拨款才能达成100%清洁水供覆盖率的目标。” 他续称﹐砂…</p>
+                                <a class="blog-btn" href="/5273/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5274/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="05 Nov 2024"></span>
+                                </div>
+                                <a href="/5274/"><h4 class="blog-card-title">金务大获4.5亿赛城数据中心建筑合约</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">金务大 （吉隆坡1日讯）金务大（GAMUDA，5398，主板建筑股）再接获一数据中心建造合约，总值4.51亿令吉。 金务大周五向交易所宝贝，旗下的金务大工程接获来自大马BCEI颁发的合约，以为赛城一数据中心提供地基、土木、结构和建筑工程。 有关工程于今年末季动工，预计2026年首季完工。 公告指出，大马BCEI是一家业内领先的工程公司，有为多家财富世界500大公司提供资讯科技设施的规划、设计和建筑工程的经验。 来源： 阅读原文</p>
+                                <a class="blog-btn" href="/5274/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5275/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="05 Nov 2024"></span>
+                                </div>
+                                <a href="/5275/"><h4 class="blog-card-title">士乃机场今早迎首趟昆明包机航班　中国高球及旅游协会领导到访</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">（古来1日讯）士乃国际机场今早迎来首趟从中国昆明包机直飞柔佛士乃国际机场的航班，共有47名中国游客到访，其中包括前来考察的高尔夫球协会及旅游协会领导。 马来西亚华人旅游公会柔佛州分会主席郑建全透露，这项开通的士乃直飞昆明包机航班每周将会有一趟，而从12月8日起将增加至每周两趟。 他说，目前的包机航班是在每周四及周五起飞，而从12月开始，航班起飞的日子改为周日及周一。 郑建全今日与大马旅游促进局南区主任莫哈末纳西尔、峇迪航空公司新山分行经理莫哈末赛夫丁等人，在士乃…</p>
+                                <a class="blog-btn" href="/5275/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5277/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="05 Nov 2024"></span>
+                                </div>
+                                <a href="/5277/"><h4 class="blog-card-title">中建八局 | 马来西亚数据中心MY06机电项目：精诚之心、久久为功，努力打造“一带一路”数字经济服务样板</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">来源： 阅读原文</p>
+                                <a class="blog-btn" href="/5277/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5279/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="05 Nov 2024"></span>
+                                </div>
+                                <a href="/5279/"><h4 class="blog-card-title">走进马来西亚最大电厂，探秘燃机发电“最强心脏”！</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">来源： 阅读原文</p>
+                                <a class="blog-btn" href="/5279/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="single-blog">
+                            <div class="blog-image">
+                              <a class="image-scale" href="/5280/">
+                                <img src="/assets/images/noneimg-news.jpg">
+                              </a>
+                            </div>
+                            <div class="blog-content">
+                              <div class="blog-title">
+                                <div class="blog-meta">
+                                
+                                
+                                
+                                <span class="date-type js-format-date" data-date="05 Nov 2024"></span>
+                                </div>
+                                <a href="/5280/"><h4 class="blog-card-title">中国明年访马来西亚旅客 总消费上看300亿</h4></a>
+                              </div>
+                              <div class="blog-text">
+                                
+                                
+                                
+                                
+                                <p class="blog-summary">（吉隆坡25日讯）冠病疫情阴霾退散后，中国赴马旅客更盛，预料到了2025年，中国旅客在马旅游的支出，将从2019年的翻倍飙涨，估计可超过300亿令吉！ 实际上，我国2024下半年，中国籍游客人均消费，比冠病疫情爆发前的2019年，已高出了27%或四分之一！ 量化各家上市企业，云顶大马（GENM，4715，主板消费股）五年前接待的中国游客，即占2019年访客总人口4%比例。 在马云顶双雄，结合云顶新加坡，中国旅客就为总体博彩业务，贡献了20%至30%营收！ 无…</p>
+                                <a class="blog-btn" href="/5280/">更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                    
+          </div>
+        </div>
+        
+            
+            
+            
+            
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="blog-pagination">
+                  <ul class="pagination">
+                    
+                              
+                              
+                                  <li><a href="/categories/news/page/44/"><i class="fa fa-angle-left"></i></a></li>
+                                
+                            
+                    
+                              
+                              
+                                  
+                                
+                              
+                                  <li><a href="/categories/news/page/41/">41</a></li>
+                                
+                            
+                              
+                              
+                                  
+                                
+                              
+                                  <li><a href="/categories/news/page/42/">42</a></li>
+                                
+                            
+                              
+                              
+                                  
+                                
+                              
+                                  <li><a href="/categories/news/page/43/">43</a></li>
+                                
+                            
+                              
+                              
+                                  
+                                
+                              
+                                  <li><a href="/categories/news/page/44/">44</a></li>
+                                
+                            
+                              
+                              
+                                  
+                                
+                              
+                                  <li class="active"><a href="#">45</a></li>
+                                
+                            
+                              
+                              
+                                  
+                                
+                              
+                                  <li><a href="/categories/news/page/46/">46</a></li>
+                                
+                            
+                              
+                              
+                                  
+                                
+                              
+                                  <li><a href="/categories/news/page/47/">47</a></li>
+                                
+                            
+                              
+                              
+                                  
+                                
+                              
+                                  <li><a href="/categories/news/page/48/">48</a></li>
+                                
+                            
+                              
+                              
+                                  
+                                
+                              
+                                  <li><a href="/categories/news/page/49/">49</a></li>
+                                
+                            
+                    
+                              <li><a href="/categories/news/page/46/"><i class="fa fa-angle-right"></i></a></li>
+                            
+                    
+                              <li><a href="/categories/news/page/254/"><i class="fa fa-angle-double-right"></i></a></li>
+                            
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+      </div>
+    </div>
+    <script>
+      (function () {
+        var categoryTitleMap = [
+          
+                  
+                      { term: "news", title: "最新動態" },
+                    
+                      { term: "organization", title: "企業風采" },
+                    
+                      { term: "corporateevents", title: "企業活動" },
+                    
+                      { term: "malaysia", title: "文化旅游" },
+                    
+                      { term: "guideline", title: "馬來西亞攻略" },
+                    
+                      { term: "study", title: "絲路留學" },
+                    
+                      { term: "showroom", title: "絲路視角" },
+                    
+                      { term: "publicwelfare", title: "絲路公益" },
+                    
+                
+        ];
+        var term = "news";
+        var title = term;
+        for (var i = 0; i < categoryTitleMap.length; i++) {
+          if (categoryTitleMap[i].term === term && categoryTitleMap[i].title) {
+            title = categoryTitleMap[i].title;
+            break;
+          }
+        }
+        var nodes = document.querySelectorAll('.js-category-title');
+        for (var j = 0; j < nodes.length; j++) {
+          nodes[j].textContent = title;
+        }
+        var siteTitle = "絲路文化交流協會";
+        var fullTitle = title;
+        if (siteTitle && siteTitle !== "") {
+          fullTitle = title + " | " + siteTitle;
+        }
+        document.title = fullTitle;
+      })();
+    </script>
+
+    <footer>
+      <div class="footer-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-4 col-xs-12">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <h4 style="margin-bottom: 0;">聯係方式</h4>
+                  <h4>Contact</h4>
+                  <p>歡迎通過以下方式與我們聯係</p>
+                  <div class="footer-contacts">
+                    <p><span>電話(Phone)：</span> 0188709369</p>
+                    <p><span>郵箱(Email)：</span> silkroute.my.biz@gmail.com</p>
+                    <p><span>地址(Address)：</span> 馬來西亞吉隆坡KLCC</p>
+                  </div>
+                  <div class="footer-icons">
+                    <ul>
+                      <li><a href=""><i class="fa fa-weibo"></i></a></li>
+                      <li><a href=""><i class="fa fa-weixin"></i></a></li>
+                      <li><a href=""><i class="fa fa-qq"></i></a></li>
+                      <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12">
+              <div class="footer-content last-content">
+                <div class="footer-head">
+                  <h4 style="margin-bottom: 0;">關注我們</h4>
+                  <h4>Follow us</h4>
+                  <p><img src="/assets/uploads/2022/11/2022110607385872.png" alt="關注微信公衆號"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-area-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="copyright">
+                <p>Copyright &copy; &nbsp;2010-2026 <a href="/">絲路文化交流協會</a> All Rights Reserved. <a href="http://beian.miit.gov.cn/" target="_blank"></a></p>
+                <p>技術支持：<a href="https://www.muker.cc/">穆客智能</a></p>
+                <span style="display:none;"></span>
+                <span style="display:none;"></span>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="jianzhanyes text-right">
+                <p style="display:none">&#84;&#104;&#101;&#109;&#101;&#32;&#98;&#121; <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#119;&#119;&#119;&#46;&#106;&#105;&#97;&#110;&#122;&#104;&#97;&#110;&#112;&#114;&#101;&#115;&#115;&#46;&#99;&#111;&#109;" target="_blank">&#87;&#111;&#114;&#100;&#80;&#114;&#101;&#115;&#115;</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/waypoints.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/jquery.stellar.min.js"></script>
+    <script src="/assets/js/magnific.min.js"></script>
+    <script src="/assets/js/venobox.min.js"></script>
+    <script src="/assets/js/jquery.meanmenu.js"></script>
+    <script src="/assets/js/form-validator.min.js"></script>
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var items = document.querySelectorAll(".blog-area .date-type");
+        for (var i = 0; i < items.length; i++) {
+          var t = items[i].textContent.replace(/\s+/g, " ").trim();
+          var m = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+          if (!m) continue;
+          var month = parseInt(m[1], 10);
+          var day = parseInt(m[2], 10);
+          var year = m[3];
+          items[i].textContent = year + "年" + month + "月" + day + "日";
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var nodes = document.querySelectorAll(".js-format-date");
+        for (var i = 0; i < nodes.length; i++) {
+          var el = nodes[i];
+          var raw = el.getAttribute("data-date");
+          if (!raw) continue;
+          var d = new Date(raw);
+          if (isNaN(d.getTime())) continue;
+          el.textContent = d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日";
+        }
+      });
+    </script>
+  </body>
+</html>

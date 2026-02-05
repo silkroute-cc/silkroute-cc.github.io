@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="丝路文化交流中心">
+    <meta name="keywords" content="一带一路、丝绸之路、丝路、丝路文化、丝路文化交流中心、silk road、silk route">
+    <link rel="icon" href="/assets/images/favicon.png">
+    <title>
+      
+          柔新捷运（RTS）项目
+        
+       | 絲路文化交流協會
+    </title>
+    <meta name="author" content="絲路文化交流協會 https://silkroute.cc">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="/assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/icon.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/magnific.min.css">
+    <link rel="stylesheet" href="/assets/css/venobox.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <script src="/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKLND5NV35"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-SKLND5NV35');
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      // 图片URL映射规则 - 按优先级顺序排列
+      const mappings = [
+        // 完整URL - HTTPS（最高优先级）
+        {
+          old: "https://silkroute.cc/wp-content/uploads/",
+          new: "https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/"
+        },
+        // 完整URL - HTTP
+        {
+          old: "http://silkroute.cc/wp-content/uploads/",
+          new: "https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/"
+        },
+        // 相对路径（带前导斜杠）
+        {
+          old: "/wp-content/uploads/",
+          new: "/uploads/"
+        },
+        // 相对路径（无前导斜杠）- 处理站内相对路径
+        {
+          old: "wp-content/uploads/",
+          new: "uploads/"
+        }
+      ];
+      
+      function replaceImageUrl(url) {
+        if (!url) return url;
+        for (const { old, new: replacement } of mappings) {
+          if (url.includes(old)) {
+            return url.replace(old, replacement);
+          }
+        }
+        return url;
+      }
+    
+      function replaceSrcset(srcset) {
+        return srcset.split(",").map(item => {
+          const parts = item.trim().split(/\s+/);
+          parts[0] = replaceImageUrl(parts[0]);
+          return parts.join(" ");
+        }).join(", ");
+      }
+    
+      function processImage(img) {
+        ["src", "data-src", "data-lazy-src", "data-original"].forEach(attr => {
+          const v = img.getAttribute(attr);
+          if (v) img.setAttribute(attr, replaceImageUrl(v));
+        });
+    
+        ["srcset", "data-srcset"].forEach(attr => {
+          const v = img.getAttribute(attr);
+          if (v) img.setAttribute(attr, replaceSrcset(v));
+        });
+      }
+    
+      document.querySelectorAll("img").forEach(processImage);
+    
+      document.querySelectorAll("[style*='background-image']").forEach(el => {
+        const style = el.getAttribute("style");
+        if (style) {
+          el.setAttribute(
+            "style",
+            style.replace(/url\((['"]?)(.*?)\1\)/g, (m, q, url) =>
+              `url(${q}${replaceImageUrl(url)}${q})`
+            )
+          );
+        }
+      });
+    });
+    </script>
+    
+
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header>
+      <div class="topbar-area fix hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class=" col-md-8 col-sm-8">
+              <div class="topbar-left">
+                <ul>
+                  <li><a href="#"><i class="fa fa-map-marker"></i> 馬來西亞吉隆坡KLCC</a></li>
+                  <li><a href="#"><i class="fa fa-envelope"></i> silkroute.my.biz@gmail.com</a></li>
+                  <li><a href="#"><i class="fa fa-phone"></i> 0188709369</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="topbar-right">
+                <div class="top-social">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+                    <li><a href="#"><i class="fa fa-weixin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sticker" class="header-area hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+              <div class="logo">
+                <a style="padding-top: 40px;" class="navbar-brand page-scroll sticky-logo" href="/">
+                  <img src="/assets/images/logo.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-9">
+              <div class="header-right-link">
+                <form method="get" id="searchform" action="/">
+                  <div class="search-option">
+                    <input type="text" name="s" id="s" placeholder="Search...">
+                    <button class="button" type="submit"><i class="fa fa-search"></i></button>
+                  </div>
+                  <a class="main-search" href="#"><i class="fa fa-search"></i></a>
+                </form>
+              </div>
+              <nav class="navbar navbar-default">
+                <div class="collapse navbar-collapse" id="navbar-example">
+                  <div class="main-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a class="pagess" href="/categories/news/"><p style="margin:0;text-align: center;">最新動態</p><p  style="margin:0;text-align: center;">News</p></a></li>
+                    <li class="dropdown">
+                    <a class="pagess dropdown-toggle" href="/categories/business/" data-toggle="dropdown"><p style="margin:0;text-align: center;">企業商務</p><p  style="margin:0;text-align: center;">Business</p></a>
+                    <ul class="sub-menu">
+                    <li><a class="pagess" href="/business/"><p style="margin:0;">商務對接</p><p  style="margin:0;">Business Docking</p></a></li>
+                    <li><a class="pagess" href="/categories/organization/"><p style="margin:0;">企業風采</p><p  style="margin:0;">Corporate Style</p></a></li>
+                    <li><a class="pagess" href="/categories/corporateevents/"><p style="margin:0;">企業活動</p><p  style="margin:0;">Events</p></a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown">
+                    <a class="pagess dropdown-toggle" href="/categories/travel/" data-toggle="dropdown"><p style="margin:0;text-align: center;">文化旅游</p><p  style="margin:0;text-align: center;">Cul&TA</p></a>
+                    <ul class="sub-menu">
+                    <li><a class="pagess" href="/categories/malaysia/"><p style="margin:0;">馬來西亞特色文化</p><p  style="margin:0;">Malaysia</p></a></li>
+                    <li><a class="pagess" href="/categories/guideline/"><p style="margin:0;">馬來西亞攻略</p><p  style="margin:0;">Guideline</p></a></li>
+                    </ul>
+                    </li>
+                    <li><a class="pagess" href="/categories/study/"><p style="margin:0;text-align: center;">絲路留學</p><p  style="margin:0;text-align: center;">Study</p></a></li>
+                    <li><a class="pagess" href="/categories/showroom/"><p style="margin:0;text-align: center;">絲路視角</p><p  style="margin:0;text-align: center;">Perspective</p></a></li>
+                    <li><a class="pagess" href="/categories/publicwelfare/"><p style="margin:0;text-align: center;">絲路公益</p><p  style="margin:0;text-align: center;">Charitable</p></a></li>
+                    <li><a class="pagess" href="/about/"><p style="margin:0;text-align: center;">關於我們</p><p  style="margin:0;text-align: center;">About</p></a></li>
+                    </ul>
+    
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mobile-menu">
+                <div class="logo">
+                  <a href="/"><img src="/assets/images/logo.png" alt=""></a>
+                </div>
+                <nav id="dropdown">
+                  <ul>
+                  <li><a href="/categories/news/"><p style="margin:0;text-align: center;">最新動態</p><p  style="margin:0;text-align: center;">News</p></a></li>
+                  <li><a href="/categories/business/"><p style="margin:0;text-align: center;">企業商務</p><p  style="margin:0;text-align: center;">Business</p></a>
+                  <ul>
+                  <li><a href="/business/"><p style="margin:0;">商務對接</p><p  style="margin:0;">Business Docking</p></a></li>
+                  <li><a href="/categories/organization/"><p style="margin:0;">企業風采</p><p  style="margin:0;">Corporate Style</p></a></li>
+                  <li><a href="/categories/corporateevents/"><p style="margin:0;">企業活動</p><p  style="margin:0;">Events</p></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/categories/travel/"><p style="margin:0;text-align: center;">文化旅游</p><p  style="margin:0;text-align: center;">Cul&TA</p></a>
+                  <ul>
+                  <li><a href="/categories/malaysia/"><p style="margin:0;">馬來西亞特色文化</p><p  style="margin:0;">Malaysia</p></a></li>
+                  <li><a href="/categories/guideline/"><p style="margin:0;">馬來西亞攻略</p><p  style="margin:0;">Guideline</p></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/categories/study/"><p style="margin:0;text-align: center;">絲路留學</p><p  style="margin:0;text-align: center;">Study</p></a></li>
+                  <li><a href="/categories/showroom/"><p style="margin:0;text-align: center;">絲路視角</p><p  style="margin:0;text-align: center;">Perspective</p></a></li>
+                  <li><a href="/categories/publicwelfare/"><p style="margin:0;text-align: center;">絲路公益</p><p  style="margin:0;text-align: center;">Charitable</p></a></li>
+                  <li><a href="/about/"><p style="margin:0;text-align: center;">關於我們</p><p  style="margin:0;text-align: center;">About</p></a></li>
+                  </ul>
+    
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+    
+      
+    
+    
+    
+    <div class="page-area">
+      <div class="breadcumb-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="breadcrumb text-center">
+              <div class="section-headline white-headline text-center">
+                <h3><a href="/categories/news/">news</a></h3>
+              </div>
+              <ul>
+                <li class="home-bread">首页</li>
+                <li><a href="/categories/news/">news</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-page-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-xs-12">
+            <article class="blog-post-wrapper">
+              <div class="blog-banner">
+                <a href="#" class="blog-images">
+                  <img src="/assets/images/noneimg-news.jpg" alt="柔新捷运（RTS）项目"/>
+                </a>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span class="date-type js-format-date" data-date="11 Aug 2021"></span>
+                  </div>
+                  <a href="#"><h4>柔新捷运（RTS）项目</h4></a>
+                  <img src="https://mmbiz.qpic.cn/mmbiz_png/uKucKpKOlXJH2Kuzdkf4IytwhfVPugicKZmVKXcxCqgDGTpUHITncnvlWlzZQhicyKTFS68zLtNss0mlPTq7wHibA/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="" />
+    <h3>RAPID TRANSIT SYSTEM LINK (RTS LINK) PROJECT BETWEEN JOHOR BAHRU AND SINGAPORE</h3>
+    <p><strong>About RTS Link</strong></p>
+    <p>MRT Corp has set up a subsidiary, Malaysia Rapid Transit System Sdn Bhd (MRTS), to be the developer and owner of the civil infrastructure for the Malaysian section of the Rapid Transit System Link (RTS Link) Project Between Johor Bahru and Singapore. The company was incorporated on 5 December 2019.</p>
+    <p>The RTS Link Project is a railway shuttle link approximately 4km length with two stations, one in Bukit Chagar, Johor Bahru, Malaysia and one in Woodlands, Singapore.</p>
+    <p>The link will be a modern Light Rail Transit (LRT) system that will provide high volume, fast and efficient transportation system between the two stations.</p>
+    <p>The link will be integrated with public transport systems at both stations, providing an alternative means of transportation that will help alleviate the congestion at immigration checkpoints for both countries.</p>
+    <p>The link will have a capacity of 10,000 passengers per hour, per direction and an expected ridership of about 40,000 passengers per day upon opening.</p>
+    <p><strong>Immigration, Custom and Quarantine (ICQ)</strong></p>
+    <p>As an international link between Malaysia and Singapore, the RTS Link Project includes the building of a new Immigration, Customs and Quarantine (ICQ) facility next to the station at Bukit Chagar. Similarly, the RTS Link Station in Woodlands North in Singapore will also have Customs, Immigration and Quarantine (CIQ) facilities.</p>
+    <p>What is unique is that the Malaysian ICQ and Singaporean CIQ facilities will be co-located within the same building. This will allow the entire immigration process of leaving and entering both countries to be completed at the departing station.</p>
+    <p>Upon arrival, passenger will just leave the station without needing to go through border crossing formalities again.</p>
+    <p><strong>RTS Link Maintenance Depot, Wadi Hana</strong></p>
+    <p>The RTS Link Project Maintenance Depot will be located in at Wadi Hana, Johor Bahru. The depot will provide stabling and maintenance facilities for supporting the operation.</p>
+    <p><strong>RTS Link Operator</strong></p>
+    <p>The RTS Link Project will be operated by RTS Operations Sdn Bhd (RTSO), a Joint Venture Operations Company between Prasarana Malaysia Berhad and SMRT Corporation Ltd of Singapore</p>
+    <h3>ALIGNMENT MAP</h3>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uKucKpKOlXJH2Kuzdkf4IytwhfVPugicKibWbYpicOiaQDhGRwH8Steu90hOHnbibEsNVoM5XicBCXQLwf1VCFLFmTbw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="" />
+    <h3>RTS LINK PROJECT VIDEO</h3>
+    <p><a href="https://mp.weixin.qq.com/mp/videoplayer?video_h=380.8125&amp;video_w=677&amp;scene=126&amp;random_num=2892&amp;article_title=%E6%9F%94%E6%96%B0%E6%8D%B7%E8%BF%90%EF%BC%88RTS%EF%BC%89%E9%A1%B9%E7%9B%AE&amp;vid=wxv_1996627050450698244&amp;mid=2247490011&amp;idx=1&amp;__biz=Mzg5ODU3MTE5OA%3D%3D&amp;nodetailbar=0&amp;uin=MzMyMTU2MDAw&amp;key=9368ec24e294fe2f0c50cc0606b7fb73e8115969174f1e7ec6f880147e8747d1962706e1f60ef471dfc5901bc3ab8026af7e1d8ca3f9cdb44686b36a14752bfc847b1022901b8c88dc3191eb08354b5eba4419ba91ba2220fe938e4674f87420e06f0c92fb596b25feb715a3aa906d3804f39b2b585a75c0970cae1ec4e0f461&amp;pass_ticket=IR7HYEZjEZkXyaOBrhqxk%20c1Y2WK0mfV8IjjI%20lMhm1sGAz%20e6IKiP5GT7WFHInY&amp;version=&amp;devicetype=Windows%C2%A010%C2%A0x64&amp;wxtoken=777&amp;sessionid=1628692958&amp;preview=0&amp;is_in_pay_subscribe=0&amp;nickname=%E5%A4%A7%E9%A9%AC%E5%BB%BA%E7%AD%91%E5%B8%82%E5%9C%BA%E4%BF%A1%E6%81%AF&amp;roundHeadImg=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FuKucKpKOlXICdDxzicDqoHZS03EsZ9ZAXmJr2Lu3BxRVCn5qQZpGibsWR4ZibIGj34Ew8KwuGmpRF9M6vHpK7V4ibw%2F0%3Fwx_fmt%3Dpng&amp;enterid=1628692970&amp;subscene=">https://mp.weixin.qq.com/mp/videoplayer?video_h=380.8125&amp;video_w=677&amp;scene=126&amp;random_num=2892&amp;article_title=%E6%9F%94%E6%96%B0%E6%8D%B7%E8%BF%90%EF%BC%88RTS%EF%BC%89%E9%A1%B9%E7%9B%AE&amp;source=4&amp;vid=wxv_1996627050450698244&amp;mid=2247490011&amp;idx=1&amp;__biz=Mzg5ODU3MTE5OA==&amp;nodetailbar=0&amp;uin=MzMyMTU2MDAw&amp;key=9368ec24e294fe2f0c50cc0606b7fb73e8115969174f1e7ec6f880147e8747d1962706e1f60ef471dfc5901bc3ab8026af7e1d8ca3f9cdb44686b36a14752bfc847b1022901b8c88dc3191eb08354b5eba4419ba91ba2220fe938e4674f87420e06f0c92fb596b25feb715a3aa906d3804f39b2b585a75c0970cae1ec4e0f461&amp;pass_ticket=IR7HYEZjEZkXyaOBrhqxk+c1Y2WK0mfV8IjjI+lMhm1sGAz+e6IKiP5GT7WFHInY&amp;version=&amp;devicetype=Windows 10 x64&amp;wxtoken=777&amp;sessionid=1628692958&amp;preview=0&amp;is_in_pay_subscribe=0&amp;nickname=%E5%A4%A7%E9%A9%AC%E5%BB%BA%E7%AD%91%E5%B8%82%E5%9C%BA%E4%BF%A1%E6%81%AF&amp;roundHeadImg=http://mmbiz.qpic.cn/mmbiz_png/uKucKpKOlXICdDxzicDqoHZS03EsZ9ZAXmJr2Lu3BxRVCn5qQZpGibsWR4ZibIGj34Ew8KwuGmpRF9M6vHpK7V4ibw/0?wx_fmt=png&amp;enterid=1628692970&amp;subscene=</a></p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uKucKpKOlXJH2Kuzdkf4IytwhfVPugicKYpbPbuoTT6dCKxoSG9Tic8S0v4aor0soePVM6mRkDgRItLP6sjVkgRw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="" />
+    <p>来源：https://mp.weixin.qq.com/s/8HDdcGEVUn3442Jtzq7wtA</p>
+    
+                </div>
+              </div>
+            </article>
+            <div class="clear"></div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            
+            
+              
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="sidebar-area">
+              <div class="left-head-blog">
+                <div class="left-blog-page">
+                  <div class="left-tags blog-tags">
+                    <div class="popular-tag left-side-tags left-blog">
+                      <h4>标签</h4>
+                      <ul>
+                        
+                        
+                                      <li><a href="#">暂无标签</a></li>
+                                    
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-4 col-xs-12">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <h4 style="margin-bottom: 0;">聯係方式</h4>
+                  <h4>Contact</h4>
+                  <p>歡迎通過以下方式與我們聯係</p>
+                  <div class="footer-contacts">
+                    <p><span>電話(Phone)：</span> 0188709369</p>
+                    <p><span>郵箱(Email)：</span> silkroute.my.biz@gmail.com</p>
+                    <p><span>地址(Address)：</span> 馬來西亞吉隆坡KLCC</p>
+                  </div>
+                  <div class="footer-icons">
+                    <ul>
+                      <li><a href=""><i class="fa fa-weibo"></i></a></li>
+                      <li><a href=""><i class="fa fa-weixin"></i></a></li>
+                      <li><a href=""><i class="fa fa-qq"></i></a></li>
+                      <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12">
+              <div class="footer-content last-content">
+                <div class="footer-head">
+                  <h4 style="margin-bottom: 0;">關注我們</h4>
+                  <h4>Follow us</h4>
+                  <p><img src="/assets/uploads/2022/11/2022110607385872.png" alt="關注微信公衆號"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-area-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="copyright">
+                <p>Copyright &copy; &nbsp;2010-2026 <a href="/">絲路文化交流協會</a> All Rights Reserved. <a href="http://beian.miit.gov.cn/" target="_blank"></a></p>
+                <p>技術支持：<a href="https://www.muker.cc/">穆客智能</a></p>
+                <span style="display:none;"></span>
+                <span style="display:none;"></span>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="jianzhanyes text-right">
+                <p style="display:none">&#84;&#104;&#101;&#109;&#101;&#32;&#98;&#121; <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#119;&#119;&#119;&#46;&#106;&#105;&#97;&#110;&#122;&#104;&#97;&#110;&#112;&#114;&#101;&#115;&#115;&#46;&#99;&#111;&#109;" target="_blank">&#87;&#111;&#114;&#100;&#80;&#114;&#101;&#115;&#115;</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/waypoints.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/jquery.stellar.min.js"></script>
+    <script src="/assets/js/magnific.min.js"></script>
+    <script src="/assets/js/venobox.min.js"></script>
+    <script src="/assets/js/jquery.meanmenu.js"></script>
+    <script src="/assets/js/form-validator.min.js"></script>
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var items = document.querySelectorAll(".blog-area .date-type");
+        for (var i = 0; i < items.length; i++) {
+          var t = items[i].textContent.replace(/\s+/g, " ").trim();
+          var m = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+          if (!m) continue;
+          var month = parseInt(m[1], 10);
+          var day = parseInt(m[2], 10);
+          var year = m[3];
+          items[i].textContent = year + "年" + month + "月" + day + "日";
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var nodes = document.querySelectorAll(".js-format-date");
+        for (var i = 0; i < nodes.length; i++) {
+          var el = nodes[i];
+          var raw = el.getAttribute("data-date");
+          if (!raw) continue;
+          var d = new Date(raw);
+          if (isNaN(d.getTime())) continue;
+          el.textContent = d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日";
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="丝路文化交流中心">
+    <meta name="keywords" content="一带一路、丝绸之路、丝路、丝路文化、丝路文化交流中心、silk road、silk route">
+    <link rel="icon" href="/assets/images/favicon.png">
+    <title>
+      
+          大马常用APP
+        
+       | 絲路文化交流協會
+    </title>
+    <meta name="author" content="絲路文化交流協會 https://silkroute.cc">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="/assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/icon.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/magnific.min.css">
+    <link rel="stylesheet" href="/assets/css/venobox.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <script src="/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKLND5NV35"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-SKLND5NV35');
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      // 图片URL映射规则 - 按优先级顺序排列
+      const mappings = [
+        // 完整URL - HTTPS（最高优先级）
+        {
+          old: "https://silkroute.cc/wp-content/uploads/",
+          new: "https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/"
+        },
+        // 完整URL - HTTP
+        {
+          old: "http://silkroute.cc/wp-content/uploads/",
+          new: "https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/"
+        },
+        // 相对路径（带前导斜杠）
+        {
+          old: "/wp-content/uploads/",
+          new: "/uploads/"
+        },
+        // 相对路径（无前导斜杠）- 处理站内相对路径
+        {
+          old: "wp-content/uploads/",
+          new: "uploads/"
+        }
+      ];
+      
+      function replaceImageUrl(url) {
+        if (!url) return url;
+        for (const { old, new: replacement } of mappings) {
+          if (url.includes(old)) {
+            return url.replace(old, replacement);
+          }
+        }
+        return url;
+      }
+    
+      function replaceSrcset(srcset) {
+        return srcset.split(",").map(item => {
+          const parts = item.trim().split(/\s+/);
+          parts[0] = replaceImageUrl(parts[0]);
+          return parts.join(" ");
+        }).join(", ");
+      }
+    
+      function processImage(img) {
+        ["src", "data-src", "data-lazy-src", "data-original"].forEach(attr => {
+          const v = img.getAttribute(attr);
+          if (v) img.setAttribute(attr, replaceImageUrl(v));
+        });
+    
+        ["srcset", "data-srcset"].forEach(attr => {
+          const v = img.getAttribute(attr);
+          if (v) img.setAttribute(attr, replaceSrcset(v));
+        });
+      }
+    
+      document.querySelectorAll("img").forEach(processImage);
+    
+      document.querySelectorAll("[style*='background-image']").forEach(el => {
+        const style = el.getAttribute("style");
+        if (style) {
+          el.setAttribute(
+            "style",
+            style.replace(/url\((['"]?)(.*?)\1\)/g, (m, q, url) =>
+              `url(${q}${replaceImageUrl(url)}${q})`
+            )
+          );
+        }
+      });
+    });
+    </script>
+    
+
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header>
+      <div class="topbar-area fix hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class=" col-md-8 col-sm-8">
+              <div class="topbar-left">
+                <ul>
+                  <li><a href="#"><i class="fa fa-map-marker"></i> 馬來西亞吉隆坡KLCC</a></li>
+                  <li><a href="#"><i class="fa fa-envelope"></i> silkroute.my.biz@gmail.com</a></li>
+                  <li><a href="#"><i class="fa fa-phone"></i> 0188709369</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="topbar-right">
+                <div class="top-social">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+                    <li><a href="#"><i class="fa fa-weixin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sticker" class="header-area hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+              <div class="logo">
+                <a style="padding-top: 40px;" class="navbar-brand page-scroll sticky-logo" href="/">
+                  <img src="/assets/images/logo.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-9">
+              <div class="header-right-link">
+                <form method="get" id="searchform" action="/">
+                  <div class="search-option">
+                    <input type="text" name="s" id="s" placeholder="Search...">
+                    <button class="button" type="submit"><i class="fa fa-search"></i></button>
+                  </div>
+                  <a class="main-search" href="#"><i class="fa fa-search"></i></a>
+                </form>
+              </div>
+              <nav class="navbar navbar-default">
+                <div class="collapse navbar-collapse" id="navbar-example">
+                  <div class="main-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a class="pagess" href="/categories/news/"><p style="margin:0;text-align: center;">最新動態</p><p  style="margin:0;text-align: center;">News</p></a></li>
+                    <li class="dropdown">
+                    <a class="pagess dropdown-toggle" href="/categories/business/" data-toggle="dropdown"><p style="margin:0;text-align: center;">企業商務</p><p  style="margin:0;text-align: center;">Business</p></a>
+                    <ul class="sub-menu">
+                    <li><a class="pagess" href="/business/"><p style="margin:0;">商務對接</p><p  style="margin:0;">Business Docking</p></a></li>
+                    <li><a class="pagess" href="/categories/organization/"><p style="margin:0;">企業風采</p><p  style="margin:0;">Corporate Style</p></a></li>
+                    <li><a class="pagess" href="/categories/corporateevents/"><p style="margin:0;">企業活動</p><p  style="margin:0;">Events</p></a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown">
+                    <a class="pagess dropdown-toggle" href="/categories/travel/" data-toggle="dropdown"><p style="margin:0;text-align: center;">文化旅游</p><p  style="margin:0;text-align: center;">Cul&TA</p></a>
+                    <ul class="sub-menu">
+                    <li><a class="pagess" href="/categories/malaysia/"><p style="margin:0;">馬來西亞特色文化</p><p  style="margin:0;">Malaysia</p></a></li>
+                    <li><a class="pagess" href="/categories/guideline/"><p style="margin:0;">馬來西亞攻略</p><p  style="margin:0;">Guideline</p></a></li>
+                    </ul>
+                    </li>
+                    <li><a class="pagess" href="/categories/study/"><p style="margin:0;text-align: center;">絲路留學</p><p  style="margin:0;text-align: center;">Study</p></a></li>
+                    <li><a class="pagess" href="/categories/showroom/"><p style="margin:0;text-align: center;">絲路視角</p><p  style="margin:0;text-align: center;">Perspective</p></a></li>
+                    <li><a class="pagess" href="/categories/publicwelfare/"><p style="margin:0;text-align: center;">絲路公益</p><p  style="margin:0;text-align: center;">Charitable</p></a></li>
+                    <li><a class="pagess" href="/about/"><p style="margin:0;text-align: center;">關於我們</p><p  style="margin:0;text-align: center;">About</p></a></li>
+                    </ul>
+    
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mobile-menu">
+                <div class="logo">
+                  <a href="/"><img src="/assets/images/logo.png" alt=""></a>
+                </div>
+                <nav id="dropdown">
+                  <ul>
+                  <li><a href="/categories/news/"><p style="margin:0;text-align: center;">最新動態</p><p  style="margin:0;text-align: center;">News</p></a></li>
+                  <li><a href="/categories/business/"><p style="margin:0;text-align: center;">企業商務</p><p  style="margin:0;text-align: center;">Business</p></a>
+                  <ul>
+                  <li><a href="/business/"><p style="margin:0;">商務對接</p><p  style="margin:0;">Business Docking</p></a></li>
+                  <li><a href="/categories/organization/"><p style="margin:0;">企業風采</p><p  style="margin:0;">Corporate Style</p></a></li>
+                  <li><a href="/categories/corporateevents/"><p style="margin:0;">企業活動</p><p  style="margin:0;">Events</p></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/categories/travel/"><p style="margin:0;text-align: center;">文化旅游</p><p  style="margin:0;text-align: center;">Cul&TA</p></a>
+                  <ul>
+                  <li><a href="/categories/malaysia/"><p style="margin:0;">馬來西亞特色文化</p><p  style="margin:0;">Malaysia</p></a></li>
+                  <li><a href="/categories/guideline/"><p style="margin:0;">馬來西亞攻略</p><p  style="margin:0;">Guideline</p></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/categories/study/"><p style="margin:0;text-align: center;">絲路留學</p><p  style="margin:0;text-align: center;">Study</p></a></li>
+                  <li><a href="/categories/showroom/"><p style="margin:0;text-align: center;">絲路視角</p><p  style="margin:0;text-align: center;">Perspective</p></a></li>
+                  <li><a href="/categories/publicwelfare/"><p style="margin:0;text-align: center;">絲路公益</p><p  style="margin:0;text-align: center;">Charitable</p></a></li>
+                  <li><a href="/about/"><p style="margin:0;text-align: center;">關於我們</p><p  style="margin:0;text-align: center;">About</p></a></li>
+                  </ul>
+    
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+    
+      
+    
+    
+    
+    <div class="page-area">
+      <div class="breadcumb-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="breadcrumb text-center">
+              <div class="section-headline white-headline text-center">
+                <h3><a href="/categories/guideline/">guideline</a></h3>
+              </div>
+              <ul>
+                <li class="home-bread">首页</li>
+                <li><a href="/categories/guideline/">guideline</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-page-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-xs-12">
+            <article class="blog-post-wrapper">
+              <div class="blog-banner">
+                <a href="#" class="blog-images">
+                  <img src="/assets/images/noneimg-news.jpg" alt="大马常用APP"/>
+                </a>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <span class="date-type js-format-date" data-date="26 Jul 2022"></span>
+                  </div>
+                  <a href="#"><h4>大马常用APP</h4></a>
+                  <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2w2yEvzTFKMXrYKzMEhJZZqjOCdETt772DFEMPQSVwficedP5CojnHVkrWjxaFGtI0/640?wx_fmt=svg" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2G012ZRneT8oH9oicaSgZ5nWVrWUp5lfxGVqM5nKGYHbHBuJ6gI5tJeQkROstWC9lB/640?wx_fmt=svg" alt="" />
+    <p><em><strong>APP</strong></em></p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2oLbKlpILgec94PmvHD0wcNCqXjE3ERtK4hvGgMBveWXkHelGYyx3DjeaCfS1EtvF/640?wx_fmt=svg" alt="" />
+    <p><strong>大马常用APP</strong>
+    </p>
+    <p><strong> APP攻略来啦</strong></p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2YjvdaxhdUXKlhibGsgJJ0RK2lfIFIQKGWgf8CmpssXgHmlAicJGGCcGeIibsVWR4aica/640?wx_fmt=svg" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2RvYUvGDjd9PYl589XlJ4UYBzxBALJaby1TA30QH0u1C3TC2TSnCTU5e5RZStcjVl/640?wx_fmt=svg" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2fHqj6cQibsBs53VsuXOwtuu9lf1e6nZjGEicHKYVJbjv19ErIs8KaJS3jXTjKxuMDR/640?wx_fmt=svg" alt="" />
+    <p>我们都知道，现在是手机通讯时代，每个国家都需要很多生活上根本就绕不开的手机APP，小编举个简单的例子，如果在中国大城市生活,你能离开微信和支付宝吗？绝对不能！而且是一刻也不能，我们以此类推，马来西亚实用App肯定也是你在大马不可或缺的工具，小编就介绍如下几款给大家应应急。</p>
+    <p><strong>1.出行软件</strong></p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2oLbKlpILgec94PmvHD0wcNCqXjE3ERtK4hvGgMBveWXkHelGYyx3DjeaCfS1EtvF/640?wx_fmt=svg" alt="" />
+    <p>如果大家需要出行和外卖，那么使用的软件首当其冲就是Grab了，Grab是东南亚网约车和送餐平台公司。Grab软件支持完美的中文版界面，刚刚入境的朋友们可以不用害怕，完全可以看得懂。而且Grab软件支持线上支付和现金两种支付模式，支付非常方便。此外，Grab软件使用方式也是相当的友好，所有商品的费用都是明码标价，不会乱收费。重点是还可以点外卖，对于懒得出门的朋友们来说，真是方便快捷，就是派送费可能有点小贵，和国内一两块的配送费相比，马来西亚的派送费不太友好。除了提供外卖出行等服务，Grab里还有超市、美妆店、药店，可以购买一些零食生活用品。去到马来西亚什么软件都可以不会，但这个一定要会用！</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWA7VB9YYMKXREHeSTKWkTnR5MQPjiajzKXpGsjibic2LcJdicarhNjlnoxw/640?wx_fmt=png" alt="" />
+    <p><strong>2.购物软件</strong></p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2xiavtIQFGyBzJTXick6WWUyXib5icicPv1kWV89fL2RcGaCL8icDdABSKF2koXukibDVxgW/640?wx_fmt=svg" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2z3PuSciaq2AyOd2D5ebDicCqRrjUGdc1DnpRAN9yvm68diacORamVLBnJnsF3EenDS4/640?wx_fmt=svg" alt="" />
+    <p><strong>Shopee</strong></p>
+    <p>虽然Grab基本上什么都可以完成，但是如果想要专业的购物平台，Shopee必须首当其冲，不仅能买到大马的本土产品，重点是可以买到国内的一些零食和常用的一些日用品，并且价格比线下店面还要便宜，Shopee可以算是中国的淘宝，Shopee的优点在于商品选择多，而且发货也快。通常下单的1~2天之内都可以收到货物，真的是非常的方便。而且Shopee是买越多，优惠也越多！</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaW00Z03BDlj5Ilq4JH8LRWWnuUVCr8KzyYI4dxKcpYka9soic7VJRhPjg/640?wx_fmt=png" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2z3PuSciaq2AyOd2D5ebDicCqRrjUGdc1DnpRAN9yvm68diacORamVLBnJnsF3EenDS4/640?wx_fmt=svg" alt="" />
+    <p><strong>Lazada</strong></p>
+    <p>LAZADA是东南亚最大跨境电商，是阿里巴巴集团旗下的公司。时常买电器，家具等物品可以到Lazada上面逛逛。该平台时常做促销，也时不时派优惠券给顾客。由于是阿里巴巴旗下的，双十一与双十二时会有很多大的促销！Lazada跨境电商（来赞达）为您提供丰富的购物服务，这里汇聚了全球好物，也是东南亚非常受欢迎的购物平台，在很多个国家都有自营仓库，就近配送，完善的售后和物流体系，让您购物更加便捷！</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWHibroBOuo0TsPRAe0cYyfuzH7avUQzZcub3A535I3qGq1eH4hXLOHrA/640?wx_fmt=png" alt="" />
+    <p><strong>3.外卖软件</strong></p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2ZB2Xs0FVhaV4tNNpvxRAjMbefLGVdvBmg6hTUGCzWVHpbYboJLibN0picn5QmBkQ1C/640?wx_fmt=svg" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2AB9ibXaK2gxrt3icTV8k2AljGccUAfVdYkH1iaHP7FQNksCNCXhzFysRQiaegwZiam3xA/640?wx_fmt=svg" alt="" />
+    <p><strong>FoodPanda</strong></p>
+    <p>FoodPanda软件是一款马拉西亚特备火爆的外卖平台应用。带来更好的外卖体验，不仅是美食，还支持各个方面的在线购买配送服务，丰富的功能带给你更好的体验，在马来西亚也能享受到便利的生活，赶快来下载试试吧！Foodpanda允许货到付款的送餐服务和部分商家免配送费，这一点也是吸引了不少用户。</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWiaGvhaEnt5xwrrmChiaO8vf8kHBH3FdFbkHicJfLrEvL7F43kacsBqDLQ/640?wx_fmt=png" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2AB9ibXaK2gxrt3icTV8k2AljGccUAfVdYkH1iaHP7FQNksCNCXhzFysRQiaegwZiam3xA/640?wx_fmt=svg" alt="" />
+    <p><strong>Hungry</strong></p>
+    <p>百家外卖【Hungry】主要用于外卖点餐的工具，主要为马来西亚的用户提供的点餐工具，用户开启就能看到本国的语言，这样就能解决语言不通的问题了，轻松点餐，享受到超便捷的点餐服务，应用中入驻的商家资源广泛，可以找到各种各样的美食，这样就能快速查找到自己需要的菜单，门店和菜品随意挑选；根据食材也可以搜索到门店，精准为您找到想要吃的食物，每一道菜还有明码标价，享受满减优惠、折扣优惠等菜品都有其对应分类，便于用户选择，轻松找到配送范围之内的食谱，解决你的点餐需要。</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWCVJ71Uqy09QkojjOnCGXUhDibgibuLicoaxaicohiag4RkNWJsBSUkCrMgQ/640?wx_fmt=png" alt="" />
+    <p><strong>4.社交软件</strong></p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2oLbKlpILgec94PmvHD0wcNCqXjE3ERtK4hvGgMBveWXkHelGYyx3DjeaCfS1EtvF/640?wx_fmt=svg" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2nJQJdkSWJpgUBgUJIVs6SOdZYyfvFYJLmFsMcKTwFFgyWiaTO9yzqgU6YsNvibZ2lL/640?wx_fmt=svg" alt="" />
+    <p><strong>Instagram</strong></p>
+    <p>在大马深受年轻人特别是女孩子的喜爱，它可以让用户分享小视频或者照片作为自己的生活记忆分享，有点像我们的朋友圈，但这款APP可以选择各样式的滤镜和多种效果运用，让用户使用影片或分享照片更具趣味性。坦白说小编已经脱节，没跟上这款APP，但我不否认它确实是一款有趣的APP。
+    </p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWeYUrDwSQHOeDPtriaDA3H17K7pb3AeEOArM1xGcQXGDjvlNGia6ycdWw/640?wx_fmt=png" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2z4R9WnibEKMVqeSpyflCLwn07xYYlWCRBtB1wtddwzic5jMVlLNEJGSgOp1LHJfgDy/640?wx_fmt=svg" alt="" />
+    <p><strong>Facebook</strong></p>
+    <p>人人皆知的脸书，在大马不论男女老少几乎人手一个，是马来西亚最受欢迎的平台。娱乐、趣味、实事、生活八卦等，你都可以在Facebook阅览，大家的各种生活写照、影片分享、群组资讯互动、信息发布等都在脸书上进行，只要你懂得发布你的需求，也可以通过Facebook找到保姆、家教、装修工人等等，有点像我们国内的58同城。</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaW4eunzrRSTKJiaeeNMOBFUxolPwAiaOtDDWhyejTMCGTvapkodSYqX8Fg/640?wx_fmt=png" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2z4R9WnibEKMVqeSpyflCLwn07xYYlWCRBtB1wtddwzic5jMVlLNEJGSgOp1LHJfgDy/640?wx_fmt=svg" alt="" />
+    <p><strong>YouTube</strong></p>
+    <p>YouTube是一个人人创造与分享视频内容的社会化播客，这里基本可以找到一切你想要的。电影、音乐、演讲、运动、教学，内容丰富而强大，坐在家中就可以放眼看世界。在这里你可以感受世界不同文化的碰撞，找到非常多的热点资讯，颠覆你所有认知。</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWIt6dWaFtdic6zBLxqcDX0gfXa28Iuq3WwOJR8mWkfRHsDPDTeVfPDuA/640?wx_fmt=png" alt="" />
+    <p><strong>5.安全软件</strong></p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2xiavtIQFGyBzJTXick6WWUyXib5icicPv1kWV89fL2RcGaCL8icDdABSKF2koXukibDVxgW/640?wx_fmt=svg" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2z3PuSciaq2AyOd2D5ebDicCqRrjUGdc1DnpRAN9yvm68diacORamVLBnJnsF3EenDS4/640?wx_fmt=svg" alt="" />
+    <p><strong>MySejahtera</strong></p>
+    <p>类似于国内的居民健康码，从国外去到马来西亚的朋友，强制要求必须下载和注册。目前这款APP结合了入店扫码，确诊追踪，健康诊断，隔离自我申报，以及疫苗接种情况等功能。用户也可在APP上查询最新疫情消息，查看自己所在区域的疫情风险程度，进行健康自我评估等。也就是说，在马来西亚，如果你没有下载这款APP，你可能都无法出门。噢不对，是无法进入马来西亚。</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWYFiaA6oBh7At2KkcmuicGkmRJFcafPyQ1PNnFicQYZlY7Xuia7BIYUDUtA/640?wx_fmt=png" alt="" />
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2z3PuSciaq2AyOd2D5ebDicCqRrjUGdc1DnpRAN9yvm68diacORamVLBnJnsF3EenDS4/640?wx_fmt=svg" alt="" />
+    <p><strong>SaveME 999 POLIS</strong></p>
+    <p>遇到紧急情况时可一键无声报警，希望所有留学在外的小伙伴们不需要用到这款APP，用户只需先登记好个人资料和联络人电话，遇到紧急情况时可一键无声报警，警方将通过GPS定位和用户信息迅速出警，提供救援。出国留学毕竟是孤身在外，万一遇到紧急情况，一定要先想办法报警自救。</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWb0whkvECAgkC8nBtAGP0pog56yvJtPnZpPEr1wg2Pf2tRh2d6fAdCA/640?wx_fmt=png" alt="" />
+    <p>对于去马来西亚留学生们，除了要应对繁忙的学业外，还要去适应新的环境和新的生活。如何让自己的日常生活能像在国内一样方便快捷呢？上面的这些APP软件也许能帮到你。</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_svg/gQQO820rz5UdFLGuYDLxamicY3ic8qic2N2kYeZ1uC1DlhUTwCrLdibb3GLaq56XXxYiaNrCWBST00ufFABPBkHarcibwRPibPBv9a9/640?wx_fmt=svg" alt="" />
+    <p>编辑：王佩仪</p>
+    <p>排版：高舒亚</p>
+    <p>校审：何宇娇 李少恒</p>
+    <p>责编：倪睿孜 敖雨晨</p>
+    <p>主编：林一凡</p>
+    <img src="https://mmbiz.qpic.cn/mmbiz_png/uXSVIKrW8RVRr1uYqlicic70Yp34aRzBaWzqBT6xwUiaR72BxRBEwtHJibYf8uGqImxSlkcwSD7jS1J31oZEgI7Lsg/640?wx_fmt=png" alt="" />
+    <p>微博：大马学生墙_Malaysia
+    </p>
+    <p>小红书：大马留学生_Malaysia</p>
+    <p>抖音/b站：大马留学生</p>
+    <p>来源：https://mp.weixin.qq.com/s/TsFTJmrz1NqA-nZMK7IE9g</p>
+    
+                </div>
+              </div>
+            </article>
+            <div class="clear"></div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            
+            
+              
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="sidebar-area">
+              <div class="left-head-blog">
+                <div class="left-blog-page">
+                  <div class="left-tags blog-tags">
+                    <div class="popular-tag left-side-tags left-blog">
+                      <h4>标签</h4>
+                      <ul>
+                        
+                        
+                                      <li><a href="#">暂无标签</a></li>
+                                    
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-4 col-xs-12">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <h4 style="margin-bottom: 0;">聯係方式</h4>
+                  <h4>Contact</h4>
+                  <p>歡迎通過以下方式與我們聯係</p>
+                  <div class="footer-contacts">
+                    <p><span>電話(Phone)：</span> 0188709369</p>
+                    <p><span>郵箱(Email)：</span> silkroute.my.biz@gmail.com</p>
+                    <p><span>地址(Address)：</span> 馬來西亞吉隆坡KLCC</p>
+                  </div>
+                  <div class="footer-icons">
+                    <ul>
+                      <li><a href=""><i class="fa fa-weibo"></i></a></li>
+                      <li><a href=""><i class="fa fa-weixin"></i></a></li>
+                      <li><a href=""><i class="fa fa-qq"></i></a></li>
+                      <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12">
+              <div class="footer-content last-content">
+                <div class="footer-head">
+                  <h4 style="margin-bottom: 0;">關注我們</h4>
+                  <h4>Follow us</h4>
+                  <p><img src="/assets/uploads/2022/11/2022110607385872.png" alt="關注微信公衆號"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-area-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="copyright">
+                <p>Copyright &copy; &nbsp;2010-2026 <a href="/">絲路文化交流協會</a> All Rights Reserved. <a href="http://beian.miit.gov.cn/" target="_blank"></a></p>
+                <p>技術支持：<a href="https://www.muker.cc/">穆客智能</a></p>
+                <span style="display:none;"></span>
+                <span style="display:none;"></span>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="jianzhanyes text-right">
+                <p style="display:none">&#84;&#104;&#101;&#109;&#101;&#32;&#98;&#121; <a href="&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#119;&#119;&#119;&#46;&#106;&#105;&#97;&#110;&#122;&#104;&#97;&#110;&#112;&#114;&#101;&#115;&#115;&#46;&#99;&#111;&#109;" target="_blank">&#87;&#111;&#114;&#100;&#80;&#114;&#101;&#115;&#115;</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/waypoints.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/jquery.stellar.min.js"></script>
+    <script src="/assets/js/magnific.min.js"></script>
+    <script src="/assets/js/venobox.min.js"></script>
+    <script src="/assets/js/jquery.meanmenu.js"></script>
+    <script src="/assets/js/form-validator.min.js"></script>
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var items = document.querySelectorAll(".blog-area .date-type");
+        for (var i = 0; i < items.length; i++) {
+          var t = items[i].textContent.replace(/\s+/g, " ").trim();
+          var m = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+          if (!m) continue;
+          var month = parseInt(m[1], 10);
+          var day = parseInt(m[2], 10);
+          var year = m[3];
+          items[i].textContent = year + "年" + month + "月" + day + "日";
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var nodes = document.querySelectorAll(".js-format-date");
+        for (var i = 0; i < nodes.length; i++) {
+          var el = nodes[i];
+          var raw = el.getAttribute("data-date");
+          if (!raw) continue;
+          var d = new Date(raw);
+          if (isNaN(d.getTime())) continue;
+          el.textContent = d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日";
+        }
+      });
+    </script>
+  </body>
+</html>
