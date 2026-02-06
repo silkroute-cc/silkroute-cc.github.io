@@ -242,11 +242,11 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="breadcrumb text-center">
               <div class="section-headline white-headline text-center">
-                <h3><a href="/categories/news/">news</a></h3>
+                <h3><a  class="js-category-title" href="/categories/news/">news</a></h3>
               </div>
               <ul>
                 <li class="home-bread">首页</li>
-                <li><a href="/categories/news/">news</a></li>
+                <li><a  class="js-category-title" href="/categories/news/">news</a></li>
               </ul>
             </div>
           </div>
@@ -339,7 +339,43 @@
         </div>
       </div>
     </div>
-
+    <script>
+      (function () {
+        var categoryTitleMap = [
+          
+                  
+                      { term: "news", title: "最新動態" },
+                    
+                      { term: "organization", title: "企業風采" },
+                    
+                      { term: "corporateevents", title: "企業活動" },
+                    
+                      { term: "malaysia", title: "文化旅游" },
+                    
+                      { term: "guideline", title: "馬來西亞攻略" },
+                    
+                      { term: "study", title: "絲路留學" },
+                    
+                      { term: "showroom", title: "絲路視角" },
+                    
+                      { term: "publicwelfare", title: "絲路公益" },
+                    
+                
+        ];
+        var term = "news";
+        var title = term;
+        for (var i = 0; i < categoryTitleMap.length; i++) {
+          if (categoryTitleMap[i].term === term && categoryTitleMap[i].title) {
+            title = categoryTitleMap[i].title;
+            break;
+          }
+        }
+        var nodes = document.querySelectorAll('.js-category-title');
+        for (var j = 0; j < nodes.length; j++) {
+          nodes[j].textContent = title;
+        }
+      })();
+    </script>
     <footer>
       <div class="footer-area">
         <div class="container">
@@ -371,7 +407,7 @@
                 <div class="footer-head">
                   <h4 style="margin-bottom: 0;">關注我們</h4>
                   <h4>Follow us</h4>
-                  <p><img src="/assets/uploads/2022/11/2022110607385872.png" alt="關注微信公衆號"></p>
+                  <p><img src="https://silkroute-cc.github.io/uploadimsilkroute-cc.github.io/uploads/2022/11/2022110607385872.png" alt="關注微信公衆號"></p>
                 </div>
               </div>
             </div>
