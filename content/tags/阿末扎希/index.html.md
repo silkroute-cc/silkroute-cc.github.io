@@ -1,0 +1,13 @@
+# 标签：阿末扎希
+
+- Route: /tags/阿末扎希/
+- Language: und
+- Type: derived
+- Review Status: published
+- Canonical: https://silkroute.cc/tags/阿末扎希/
+
+浏览“阿末扎希”下的内容，共 3 项。
+
+## Body
+
+[大马倡设世界技职理事会　扎希冀中国任永久主办国](</6152/>)  [阿末扎希冀马中延伸合作 共建电动车与新能源领域](</5957/>)  [阿末扎希冀马中延伸合作 共建电动车与新能源领域](</5956/>)

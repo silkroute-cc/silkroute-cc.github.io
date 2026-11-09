@@ -1,0 +1,13 @@
+# PLS与中国广州江楠合作 在马来西亚柔佛建一站式批发市场
+
+- Route: /4509/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/4509/
+
+（吉隆坡7日讯）PLS种植（PLS Plantations Bhd）与中国广州江楠（集团）农业发展有限公司合作，在柔佛建立一个区域一站式批发市场，用于马来西亚农产品的加工和销售。 PLS周四发布文告指出，两家公司是在柔佛州务大臣拿督翁哈菲兹率领的柔州代表团，正式访问中国之际签署协议。 PLS表示，将在巴西古当建造的区域批发市场，乃是推动大马粮食安全计划的重要一步。 PLS执行副主席丹斯里林刚河指出，巴西古当的一站式采购中心将成为农民和其他食品生产商寻求支援服务、…
+
+## Body
+
+（吉隆坡7日讯）PLS种植（PLS Plantations Bhd）与中国广州江楠（集团）农业发展有限公司合作，在柔佛建立一个区域一站式批发市场，用于马来西亚农产品的加工和销售。   PLS周四发布文告指出，两家公司是在柔佛州务大臣拿督翁哈菲兹率领的柔州代表团，正式访问中国之际签署协议。   PLS表示，将在巴西古当建造的区域批发市场，乃是推动大马粮食安全计划的重要一步。   PLS执行副主席丹斯里林刚河指出，巴西古当的一站式采购中心将成为农民和其他食品生产商寻求支援服务、市场准入和后勤支援的中心。   “目的是简化供应链流程，为生产商和消费者提供便利和效率。该中心将处理农业、水产养殖和肉类生产的各方面，以满足本地消费和出口市场的需求。”   他表示，双方还将探讨在农业和种植方面的投资，包括加工、包装，以及向本地和出口市场分销优质产品的工厂，其中主要产品之一将是榴莲上下游产品。   他说，双方还将合作采购农产品，确保生产商的公平定价和市场准入。   “此次合作将大大促进高质量产品的采购、遵守监管标准，以及建立可靠的供应链，以满足消费者需求。”   KUALA LUMPUR (March 7): PLS Plantations Bhd has inked a deal with China-based Guangzhou Jiangnan Agriculture Development Co Ltd to build a regional one-stop wholesale market in Johor for the processing and marketing of Malaysian agricultural produce.   In a statement on Thursday, PLS said the companies signed the agreement in conjunction with the official visit to China by a Johor delegation led by Menteri Besar Datuk Onn Hafiz Ghazi.   PLS said the regional wholesale markets, which will be built in Pasir Gudang in Johor, is a significant step toward boosting Malaysia's food security programme.   PLS executive vice chairman Tan Sri Lim Kang Hoo said that the one-stop offtake centre in Pasir Gudang will serve as a hub for farmers and other food producers seeking support services, market access and logistical assistance.   “The aim is to streamline the supply chain process, provide convenience and efficiency for producers and consumers alike. It will handle all aspects of agriculture, aquaculture and meat production for both local consumption and export markets,” he said.   Lim said the parties will also explore Investments in farming and plantations, including factories for processing, packaging and distribution of quality products to local and export markets, and one of the main products will be durian upstream and downstream products.   Lim said that both parties would also collaborate to source for agricultural products and ensure fair pricing and market access for producers.   “This collaboration will significantly enhance the procurement of high-quality products, adherence to regulatory standards, and the establishment of reliable supply chains to meet consumer demand,” he said.   来源： [阅读原文](<https://mp.weixin.qq.com/s/AilDNZBgN2HAHjMVWEaxJw>)

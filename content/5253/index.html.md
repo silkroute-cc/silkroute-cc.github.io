@@ -1,0 +1,13 @@
+# 投资5亿令吉  浙江巨江电源科技马来西亚制造基地项目要启动了？
+
+- Route: /5253/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/5253/
+
+相关新闻回顾（2019年10月9日） 看看还有哪些中资企业在马来西亚投资电池厂： 10月22日，科达利公告，该公司拟使用自有资金或自筹资金不超过人民币6亿元，在马来西亚投资建设锂电池精密结构件项目。 10月中旬，尚太科技宣布拟在马来西亚投资建设年产5万吨锂离子电池负极材料项目，初步计划总投资约1.54亿美元。 9月，恩捷股份宣布在马来西亚投资建设锂电池隔离膜项目，拟规划建设产能约10亿平方米/年，项目总投资额预…
+
+## Body
+
+相关新闻回顾（2019年10月9日）                         看看还有哪些中资企业在马来西亚投资电池厂： [10月22日，科达利公告，该公司拟使用自有资金或自筹资金不超过人民币6亿元，在马来西亚投资建设锂电池精密结构件项目。](<http://mp.weixin.qq.com/s?__biz=Mzg5ODU3MTE5OA%3D%3D&amp;mid=2247584540&amp;idx=1&amp;sn=b0613fd63ebd780d42a9ba38e4e1767b&amp;chksm=c06345cdf714ccdb14352f780b8be3254d584bc59ead5a30444a7320cb6eefce89053e500fe2&amp;scene=21#wechat_redirect>)  [10月中旬，尚太科技宣布拟在马来西亚投资建设年产5万吨锂离子电池负极材料项目，初步计划总投资约1.54亿美元。](<http://mp.weixin.qq.com/s?__biz=Mzg5ODU3MTE5OA%3D%3D&amp;mid=2247583861&amp;idx=1&amp;sn=72f12b617fa49a9c27b310007f08abfa&amp;chksm=c06346a4f714cfb289253b80f407e0d9eb024f0690a051bbbba583c964ef25b68e2c40eebe44&amp;scene=21#wechat_redirect>)  [9月，恩捷股份宣布在马来西亚投资建设锂电池隔离膜项目，拟规划建设产能约10亿平方米/年，项目总投资额预计约20亿元人民币。](<http://mp.weixin.qq.com/s?__biz=Mzg5ODU3MTE5OA%3D%3D&amp;mid=2247582176&amp;idx=1&amp;sn=f41554fae5b1ca6570d7b2606b953881&amp;chksm=c0634f31f714c627d25b6343ba0635ecb2b399c685e5f7596a150f125965889e4344f759144a&amp;scene=21#wechat_redirect>)  [7月，珠海冠宇发布公告，拟投资建设马来西亚冠宇电池新能源项目，总投资不超过20亿元人民币。](<http://mp.weixin.qq.com/s?__biz=Mzg5ODU3MTE5OA%3D%3D&amp;mid=2247574997&amp;idx=1&amp;sn=72c8d6f18ab4b3f9585c69799b6e8793&amp;chksm=c0636b04f714e2127f211590ee5d8a4bcc87c9c5ad57c77b5d7c946894256e713345b44cd6dd&amp;scene=21#wechat_redirect>)  [2023年8月星源材质宣布，拟投资总额不超过50亿元，在马来西亚投建锂电池隔膜生产基地，预计达产后将形成年产20亿平方米湿法隔膜及配套涂覆隔膜产能。](<http://mp.weixin.qq.com/s?__biz=Mzg5ODU3MTE5OA%3D%3D&amp;mid=2247556839&amp;idx=1&amp;sn=f2c2f3458a01966152a9c03adeb9ac02&amp;chksm=c062d036f71559200a7d7948c1d1c5a132dfba89fa554500333215048c3484ed37acbda45a01&amp;scene=21#wechat_redirect>)  [2022年9月，蔚蓝锂芯宣布拟在马来西亚进行锂电池项目建设投资，拟总投资2.8亿美元，规划新建10GWh圆柱电池项目。5月，蔚蓝锂芯旗下天鹏电源马来西亚公司项目一期厂房封顶，工厂有望在2025年二季度提前投产。](<http://mp.weixin.qq.com/s?__biz=Mzg5ODU3MTE5OA%3D%3D&amp;mid=2247526929&amp;idx=2&amp;sn=b785cce874ea585b7e081fbfb3459102&amp;chksm=c062a4c0f7152dd6abe5a67195fecd4c1ab009914fba8c2d1decd1f136d6ecbc315ccd398c59&amp;scene=21#wechat_redirect>)  [亿纬锂能也发布公告，拟在马来西亚投建储能电池及消费类电池制造项目，投资规模不超过4.6亿美元。](<http://mp.weixin.qq.com/s?__biz=Mzg5ODU3MTE5OA%3D%3D&amp;mid=2247574818&amp;idx=1&amp;sn=ef9559e4be45df1e3c18fb95c57e2fef&amp;chksm=c0636bf3f714e2e5942cef0fe4b73ed5228e89973019457c0f99bf9e88a3fac45f1e44b72bb4&amp;scene=21#wechat_redirect>) 来源： [阅读原文](<https://mp.weixin.qq.com/s/4qQYX0kYFWDjDgkTS6Uqug>)

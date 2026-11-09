@@ -1,0 +1,13 @@
+# 巧手迎元宵 · 红包做花灯｜马年DIY灯笼征集来啦！
+
+- Route: /5879/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/5879/
+
+元宵花灯亮，马年福气旺！ 废旧红包别丢掉，动手一变，就是最美的元宵灯笼～ 吉隆坡中国文化中心邀你一起： 用巧手做花灯，用创意闹元宵！ 不管是大人还是小朋友，都可以尽情发挥～ 例如：【超简单DIY教程】 1. 准备红包，剪掉上下封口 2. 对折后剪均匀竖条，中间不剪断 3. 展开卷成圆筒并粘牢 4. 组合造型，加上提绳与灯珠 5. 漂亮的马年红包灯笼完成！ ✨ 怎么玩？超简单！ 1. 用红包、彩纸、绳子，做一盏马年元宵灯笼 2. 拍一张美美的作品照片 3. 把作品的照片 + 名称 +…
+
+## Body
+
+元宵花灯亮，马年福气旺！   废旧红包别丢掉，动手一变，就是最美的元宵灯笼～   吉隆坡中国文化中心邀你一起：   用巧手做花灯，用创意闹元宵！   不管是大人还是小朋友，都可以尽情发挥～   例如：【超简单DIY教程】   1. 准备红包，剪掉上下封口   2. 对折后剪均匀竖条，中间不剪断   3. 展开卷成圆筒并粘牢   4. 组合造型，加上提绳与灯珠   5. 漂亮的马年红包灯笼完成！   ✨ 怎么玩？超简单！   1. 用红包、彩纸、绳子，做一盏马年元宵灯笼   2. 拍一张美美的作品照片   3. 把作品的照片 + 名称 + 小介绍发到公众号后台或中心邮箱   🏆 我们会认真评审！   评选最佳创意、最佳手工、优秀作品各10份   统统送上中心精美文创礼品！   📅 时间安排   征集：即日起—3月3日   评审：3月4日   📞 吉隆坡中国文化中心   地址：Lot 1-2-1, Menara Bangkok Bank, Berjaya Central Park, Jalan Ampang, 50450 Kuala Lumpur, Malaysia   电话：+603-2181 2456   邮箱：info@chinaculturalcentre.my   一盏小灯笼，满满新年味！   期待大家的奇思妙想，一起点亮这个温暖又热闹的元宵～🧧✨   Celebrate Lantern Festival with Red Packet Lanterns｜Year of the Horse DIY Lantern Contest   🏮🏮🏮   Let the lanterns shine and blessings fill the Year of the Horse\!   Don’t throw away red packets – turn them into beautiful lanterns with your own hands\!   China Cultural Centre in Kuala Lumpur invites you   to make lanterns with creativity and celebrate the Lantern Festival together\!   Adults and children are all welcome to join\!   【Super Easy DIY Tutorial】   1. Prepare red packets, cut off top &amp; bottom seals   2. Fold and cut even strips, keep the middle uncut   3. Unfold, roll into a tube and glue firmly   4. Assemble the shape, add handle and light   5. Your beautiful Year of the Horse lantern is done\!   ✨ How to join\!   1. Make a Horse Year lantern with red packets, paper &amp; strings   2. Take a nice photo of your work   3. Send your photo + your name + a short introduction to our email.   🏆 Judging   Best Creativity ×10   Best Craftsmanship ×10   Excellent Works ×10   All winners will receive exquisite cultural and creative gifts from the Centre.   📅 Timeline   Submission: Now — 3 March   Judging: 4 March   📞 China Cultural Centre in Kuala Lumpur   Address: Lot 1-2-1, Menara Bangkok Bank, Berjaya Central Park, Jalan Ampang, 50450 Kuala Lumpur, Malaysia   Tel: +603-2181 2456   Email: info@chinaculturalcentre.my   A small lantern, full of festive joy\!   We look forward to your wonderful creations\! 🧧✨     更多精彩，敬请关注：   吉隆坡中国文化中心    官网：    https://www.chinaculturalcentre.my    Facebook：    “China Cultural Centre in Kuala Lumpur”    公众号：    “吉隆坡中国文化中心”    Youtube：    “China Cultural Centre in Kuala Lumpur”    Tiktok：    “CCCKL”

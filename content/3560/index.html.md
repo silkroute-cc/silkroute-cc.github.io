@@ -1,0 +1,13 @@
+# “清风白云自来去·明明白白你的心”佛门清明文化座谈分享会报名！
+
+- Route: /3560/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/3560/
+
+清明节是中华传统重大的的节日，扫墓祭祀、缅怀祖先，弘扬孝道。祭祖是让子女慎终追远，饮水思源，知恩、感恩、报恩。清明节也是大马华人相当重视的节日，在外的游子多会趁清明节回乡扫墓，把孝道精神传承下去。 在这大自然的生态里，清风与白云的来去都是这么自然与无常，人的生命也一样。后辈对于祖先的缅怀，体现了对生命的尊重以及表现出中华民族的文化气质，懂得饮水思源。 由吉隆坡中国文化中心主办，法炬山、大马佛教文化总会联办的“清风白云自来去·明明白白你的心”佛门清明文化座谈分享会，将…
+
+## Body
+
+清明节是中华传统重大的的节日，扫墓祭祀、缅怀祖先，弘扬孝道。祭祖是让子女慎终追远，饮水思源，知恩、感恩、报恩。清明节也是大马华人相当重视的节日，在外的游子多会趁清明节回乡扫墓，把孝道精神传承下去。   在这大自然的生态里，清风与白云的来去都是这么自然与无常，人的生命也一样。后辈对于祖先的缅怀，体现了对生命的尊重以及表现出中华民族的文化气质，懂得饮水思源。   由吉隆坡中国文化中心主办，法炬山、大马佛教文化总会联办的“清风白云自来去·明明白白你的心”佛门清明文化座谈分享会，将于 3月25日（周六）下午2-4时 在吉隆坡中国文化中心举办。本次讲座的主讲人是释传东法师（大马佛教大学讲师、法喜佛学院院长）与释传能法师（大马佛教大学讲师），除了座谈分享，法师也将于现场为来宾进行祈福仪式，同时现场将展出一些佛门文化艺术品。让我们一起来了解清明与佛门文化的色彩！   活动报名免费，欢迎民众参与！   报名衔接：   https://forms.gle/L1ajkcFm5dVgAUPc9    Buddhism Qing Ming Cultural Talk    Qing Ming Festival is an important festival in Chinese tradition. Qing Ming festival offering sacrifies, remembering ancestors, and promoting filial piety. Qing Ming Festival is also a festival that the Malaysian Chinese attach great importance to. People will take advantage of the festival to return hometown to sweep the tombs and pass on the spirit of filial piety.   In this ecology of nature, the coming and going of the breeze and white clouds are so natural and impermanent, and so is human life. The memory of the ancestors by the younger generation reflects for life and cultural temperament of the nation, and know how to think of the source when drinking water.   The “Buddhism Qing Ming Cultural Talk”, hosted by China Cultural Centre in Kuala Lumpur and co-hosted by Dharma Light Monastery and Persatuan Penganut Bodhi Dharma Vihara Malaysia, will be held at CCCKL from 2PM - 4PM on March 25th (Saturday). The speakers of this cultural talk are Rev. Chuan Dong (Lecturer of Dharma Buddhist University, Dean of Dharma Sukha Buddhist Institute) and Rev. Chuan Neng (Lecturer of Dharma Buddhist University). In addition to the cultural talk, the Master will also hold a blessing ceremony for the guests, and some Buddhist cultural artworks will be displayed on the spot.   This event is FREE ADMISSION\! Let’s learn about Qing Ming and buddhist culture together \!   ONLINE REGISTRATION ：   https://forms.gle/L1ajkcFm5dVgAUPc9     更多精彩，敬请关注：   吉隆坡中国文化中心    官网：    https://www.chinaculturalcentre.my    Facebook：    “China Cultural Centre in Kuala Lumpur”    公众号：    “吉隆坡中国文化中心”    Youtube：    “China Cultural Centre in Kuala Lumpur”    Tiktok：    “CCCKL”     - End -     长按识别二维码      获取更多精彩内容     ▼               分享     收藏     文化      讲座   来源： [阅读原文](<https://mp.weixin.qq.com/s/JSmEp_iNe-ZffOObbikDug>)

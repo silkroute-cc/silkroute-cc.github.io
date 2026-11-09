@@ -1,0 +1,13 @@
+# 召唤吃货友友！马来西亚美食，动手做起来~
+
+- Route: /2870/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/2870/
+
+马 来 美 食 吃货 集合 身在马来西亚， 看着各式各样的美味佳肴， 即使小肚子胖了几圈， 想吃美食的欲望却丝毫不减！ 马来西亚是个多元国度， 拥有各民族美食。 作为一个专业吃货， 马来西亚的道地马来美食， 自然不能错过！ 身在…
+
+## Body
+
+马     来     美     食       吃货     集合      身在马来西亚，   看着各式各样的美味佳肴，   即使小肚子胖了几圈，   想吃美食的欲望却丝毫不减！     马来西亚是个多元国度，   拥有各民族美食。   作为一个专业吃货，   马来西亚的道地马来美食，   自然不能错过！     身在海外，无法品尝？   没关系，   小编为你整理了几款    马来经典美食食谱，   让你宅家也能做出美味佳肴！      01    1      马来竹筒饭     LEMANG          以糯米、盐和椰汁所制成，   再用香蕉叶裹着糯米饭，   放入竹筒里煮熟，   口感软糯，   夹杂着香蕉叶与翠竹清香，   尽显独特风味，   和仁当鸡一起吃更香！    02    2      仁当鸡     AYAM RENDANG          马来传统美食之一，   美味秘诀在于，   使用多种辛香料增加香味。   烹饪时间够长，   香料才能沁入鸡肉里，   吃起来才会更加入味。   在料理中添加烤过的椰丝，    让这道经典菜肴惹味十足，   浓郁酱香非常下饭！    03    3      番薯甜甜圈     KUIH KERIA UBI KELEDEK          没事就想来点甜？   番薯甜甜圈，   治愈你的一整天！   粘上雪白的糖霜，   咬下去 “卡滋卡滋”的，   外酥内软的口感，   嘴里满满的番薯香气，   边追剧边吃甜甜圈，   幸福就在一瞬间~     在家常便饭中，   偶尔融入几道异国美食，   为生活添加更多色彩。   以上这几道马来美食，   吃货友友都学会了吗？             热爱烹饪和烘焙的小伙伴，   快来加入 MSU 大家庭！   大学提供 烹饪与糕点艺术 相关的    大专文凭与本科学位    助你成为专业的美食烹饪家！      烹饪艺术     大专与本科    专业的课程规划，   让你掌握各种烹饪技巧，   透过在高级餐厅的培训计划，   进一步了解餐饮界的经营模式，   提升你在饮食界的职业优势。        糕点艺术大专与本科    专业导师亲自教学，   带你解锁匠心技艺，   深入开发你的创造力，   让你成功研制出    独具一格的美味糕点，   在烘焙界打响名号。           MSU    糖霜蛋糕制作            MSU    专业导师授课    世间万物，   唯爱与美食不可辜负~   你亲手烹制的美食，   也许能成为自己和他人    一整天的快乐来源！     加入 MSU大学 ，   进一步升华你的厨艺吧！     欢迎私信我们   了解课程详情      END    部分图片取自：康健杂志、Goodnews、Mosaic、istock    往期回顾     01 [温暖你，治愈我——从辅导中自我升华](<http://mp.weixin.qq.com/s?__biz=MzU5OTQwNTI4Mg%3D%3D&amp;mid=2247496966&amp;idx=1&amp;sn=e5e488cf62fe0c43bafd53ec36c33a99&amp;chksm=feb7d28bc9c05b9db13c83770ea82107a9fd558364ac8eca25f3300bdd57ad3de0dc84603153&amp;scene=21#wechat_redirect>) 02 [走入马来西亚博物馆，带你穿越时光隧道！](<http://mp.weixin.qq.com/s?__biz=MzU5OTQwNTI4Mg%3D%3D&amp;mid=2247496935&amp;idx=1&amp;sn=3563f0093b8f7cb99e60f99451158ee6&amp;chksm=feb7d36ac9c05a7c2801cb416ce95b62883257ce7121b40a80455ea4876452cb3b6a8e8628ef&amp;scene=21#wechat_redirect>) 03 [高考前须知！掌握关键，岸上相见](<http://mp.weixin.qq.com/s?__biz=MzU5OTQwNTI4Mg%3D%3D&amp;mid=2247496864&amp;idx=1&amp;sn=4d869d63a718760fa9e3fda73e9318f7&amp;chksm=feb7d32dc9c05a3b87fea906fbd783b480594bbfcecf5773d178c9d0922f0473e00e1148ee5a&amp;scene=21#wechat_redirect>) 04 [集合7大专业技能，练就新媒体大神！](<http://mp.weixin.qq.com/s?__biz=MzU5OTQwNTI4Mg%3D%3D&amp;mid=2247496826&amp;idx=1&amp;sn=c300c35b88bb0ddd3742aa3190427ca4&amp;chksm=feb7d3f7c9c05ae156f4a7b3ef0e508a5783c3b67332d0f5132bde88522153e1b86e74a4698f&amp;scene=21#wechat_redirect>) 点击下方，关注我们⇊    来源：https://mp.weixin.qq.com/s/6Dn14Ma0oOFHuC2Pgi4U4g

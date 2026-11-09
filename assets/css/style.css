@@ -199,7 +199,7 @@ div#preloader {
     margin-bottom: 60px;
     position: relative;
 }
-.section-headline h3 {
+.section-headline h3, .section-headline h2.h3 {
     display: inline-block;
     font-size: 30px;
     font-weight: 700;
@@ -626,7 +626,7 @@ div#preloader {
     line-height: 30px;
     max-width: 700px;
 }
-.layer-1-2 h1 {
+.layer-1-2 h1, .layer-1-2 h2 {
     color: #fff;
     font-size: 52px;
     font-weight: 700;
@@ -1376,7 +1376,21 @@ div#preloader {
 /*  11. Blog Area
 /*----------------------------------------*/
 .blog-grid {
-    margin-top: -30px;
+    /* 卡片高度不一时，浮动布局会卡位错行；改用 flex 按行对齐。
+       flex 容器不能与上方浮动标题重叠，所以去掉 -30px 负边距，改用行间距 */
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+.blog-grid .single-blog {
+    margin-top: 0;
+}
+/* 封面统一比例，竖图不再撑高卡片 */
+.blog-grid .image-scale img {
+    width: 100%;
+    aspect-ratio: 1280 / 545;
+    object-fit: cover;
 }
 .blog-image{
   overflow: hidden;
@@ -1397,7 +1411,9 @@ div#preloader {
     left:0;
     top:0;
 }
-.blog-content a h4 {
+/* 详情页标题为 <h1 class="h4">（SEO），与列表的 h4 同样式 */
+.blog-content a h4,
+.blog-content a h1.h4 {
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 600;
@@ -1424,7 +1440,8 @@ div#preloader {
     position: relative;
     top: -75px;
     background: #dfbb59;
-    width: 80px;
+    /* 80px 时两位数日期（10月24日）会折成 3 行、撑高卡片；90px 始终 2 行 */
+    width: 90px;
     padding: 5px 10px;
     left: 0px;
     text-align: center;
@@ -1457,7 +1474,8 @@ div#preloader {
 .single-blog.b-mar{
     margin-top: 20px;
 }
-.blog-content a h4:hover{
+.blog-content a h4:hover,
+.blog-content a h1.h4:hover{
     color:#dfbb59;
 }
 .blog-btn {
@@ -3070,3 +3088,38 @@ span.email-notes{color: #42414f;
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
+
+/* ---- Bukit 迁移：语义化标签（外观与原 span / h3 一致） ---- */
+/* 文章日期由 span 改为 <time datetime>，沿用 .blog-meta span 的样式 */
+.blog-meta time {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 10px;
+}
+/* 独立页面横幅标题由 h3 改为 h1（页面主标题），沿用 .breadcrumb .section-headline h3 的样式 */
+.breadcrumb .section-headline h1.page-title {
+    display: inline-block;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 48px;
+    text-transform: inherit;
+}
+@media (max-width: 767px) {
+    .breadcrumb .section-headline h1.page-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+/* S3：分类、标签、列表页横幅标题改为 h1，沿用独立页面 h1.page-title 的样式 */
+.breadcrumb .section-headline h1.page-title a { color: #fff; }
+/* S5：面包屑超过两级时，中间各级也显示分隔箭头（原来只有首页后面有） */
+.breadcrumb ul li:not(.home-bread):not(:last-child)::after {
+    position: absolute;
+    content: "\f105";
+    font-family: fontAwesome;
+    right: -10px;
+    top: 0;
+}

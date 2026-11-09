@@ -1,0 +1,13 @@
+# Ibraco与中国中铁子公司成立联营公司 负责马来西亚古晋城市交通系统项目
+
+- Route: /4314/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/4314/
+
+（吉隆坡4日讯）Ibraco Bhd通过独资子公司Ibraco Construction私人有限公司（ICSP），同中国中铁（China Railway Group Ltd）两家子公司组成名为Ibraco CREC JV人有限公司（ICJVSB）的联营公司，负责古晋城市交通系统（KUTS）基础设施工程。 这家产业发展商今日向大马交易所报备，该联营公司是与中国铁路工程集团（马）有限公司（CREC），以及Nanyang Tunnel Engineering私人有限公司所组成…
+
+## Body
+
+（吉隆坡4日讯）Ibraco Bhd通过独资子公司Ibraco Construction私人有限公司（ICSP），同中国中铁（China Railway Group Ltd）两家子公司组成名为Ibraco CREC JV人有限公司（ICJVSB）的联营公司，负责古晋城市交通系统（KUTS）基础设施工程。   这家产业发展商今日向大马交易所报备，该联营公司是与中国铁路工程集团（马）有限公司（CREC），以及Nanyang Tunnel Engineering私人有限公司所组成。   联营公司的初始缴足资本为200万令吉（200万股），ICSP持有51%股权，而CREC和Nanyang Tunnel分别持有39%和10%。   Ibraco指出，成立联营公司是为了建设和完成KUTS项目蓝线工程配套1（冷布斯至实都东）的工程。   该公司补充，这预计不会对本财政年的盈利、负债或净资产有任何实质影响。   去年11月10日，ICSB连同CREC及Nanyang Tunnel，赢得Sarawak Metro私人有限公司（SMSB）的工程配套，价值5亿6881万令吉。   KUALA LUMPUR (Jan 4): Ibraco Bhd, through its wholly-owned unit Ibraco Construction Sdn Bhd (ICSP), has partnered with two units of China Railway Group Ltd to incorporate Ibraco CREC JV Sdn Bhd (ICJVSB), a joint venture company to undertake infrastructure works for the Kuching Urban Transportation System (KUTS).   In a bourse filing on Thursday, the property developer said that the joint venture company was set up with China Railway Engineering Corporation (M) Sdn Bhd (CRECM) and Nanyang Tunnel Engineering Sdn Bhd.   The JV company has an initial paid-up capital of RM2 million, comprising 2 million shares, with ICSP holding a 51% stake, CRECM with 39% and Nanyang with 10%.   Ibraco said that the incorporation of the JV is specifically for the construction and completion of infrastructure works for Blue Line-Package 1 from Rembus to Stutong for the KUTS project.   On Nov 10, 2023, ICSB, together with CRECM and Nanyang Tunnel Engineering, secured the tender for the package from KUTS project implementer Sarawak Metro Sdn Bhd (SMSB), which is worth RM568.81 million.   The project is expected to be completed by Dec 31, 2025, for Stage 1 and June 30, 2026, for Stage 1A. Ibraco noted that the project would be funded through internally-generated funds and external borrowings.   For the cumulative nine months ending Sept 30, 2023, Ibraco's net profit more than doubled to RM36.14 million from RM16.38 million as revenue climbed 51.1% to RM286.45 million from RM189.58 million the previous year.   As at the end of September 2023, the group had RM276.86 million in unbilled sales and an outstanding order book of RM1.47 billion.   Ibraco closed up six sen or 6.94% at 92 sen on Friday with a market value of RM505.09 million. Since June 30, the stock has risen by 70.5%.   来源： [阅读原文](<https://mp.weixin.qq.com/s/m6IPODJOFhCqeQ7Ea8__PQ>)

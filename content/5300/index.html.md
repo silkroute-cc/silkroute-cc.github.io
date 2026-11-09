@@ -1,0 +1,13 @@
+# 两个马来西亚著名企业太阳能电站项目
+
+- Route: /5300/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/5300/
+
+IOI集团在柔佛拨地建太阳能发电厂 IOI集团董事经理兼总执行长拿督李耀祖（右）周二出席集团股东常年大会后，在新闻发布会上发表讲话。旁为集团主席丹斯里陈华贵。（摄影：Patrick Goh/The Edge） （吉隆坡5日讯）IOI集团（IOI Corp Bhd）指出，该集团已将位于柔佛州的部分老旧种植地库用于建设太阳能发电厂，进军可再生能源领域。 该集团没有透露土地面积，称该项目仍处于早期阶段。 根据该集团最新常年报告，其在柔佛的总地库达2万3961公…
+
+## Body
+
+IOI集团在柔佛拨地建太阳能发电厂     IOI集团董事经理兼总执行长拿督李耀祖（右）周二出席集团股东常年大会后，在新闻发布会上发表讲话。旁为集团主席丹斯里陈华贵。（摄影：Patrick Goh/The Edge）   （吉隆坡5日讯）IOI集团（IOI Corp Bhd）指出，该集团已将位于柔佛州的部分老旧种植地库用于建设太阳能发电厂，进军可再生能源领域。   该集团没有透露土地面积，称该项目仍处于早期阶段。   根据该集团最新常年报告，其在柔佛的总地库达2万3961公顷。   IOI集团董事经理兼总执行长拿督李耀祖表示，将通过一个由三到四个合作伙伴组成的财团，共同开发太阳能项目。   他今日出席集团股东常年大会（AGM）后向记者说：“我们已在柔佛专门为这个太阳能发电厂拨出土地，将通过财团进行开发。现在还为时过早，所以不能透露太多。”   他指出，该项目预计将为集团创造额外收入来源。   他说，该集团希望在2025年首季之前获得该项目的监管批准。   KUALA LUMPUR (Nov 5): IOI Corp Bhd said on Tuesday it has allocated part of its aged plantation landbank in Johor to build a solar power plant, in a move to venture into the renewable energy sector.   The group did not disclose the land size, saying the project is still in its early stages. IOI Corp's total landbank in Johor spans 23,961ha, according to the group's latest annual report.   IOI Corp managing director and CEO Datuk Lee Yeow Chor said the solar power project will be developed through a consortium comprising three or four partners.   “We’ve allocated land in Johor specifically for this solar power plant, to be developed through the consortium. It’s still early, so we can’t disclose too much yet,” Lee told reporters after the group’s annual general meeting.   The project, he said, is expected to generate additional revenue streams for the group, which is Malaysia’s second-largest palm oil producer.   Lee said IOI Corp hopes to secure regulatory approvals for the project by the first quarter of 2025.   In addition to its landbank in Johor, IOI Corp owns 18,886ha of plantation land in Pahang, 5,523ha in Negeri Sembilan, 8,998ha in Sarawak, and 119,126ha in Sabah, according to the annual report.   马国最大种植公司拟在新柔经济特区发展绿色工业园     马来西亚最大上市种植公司SD牙直利星期一（4日）与腾宇集团宣布，将在新柔经济特区联合发展一座占地641英亩的绿色工业园，旨在推动可持续工业发展，吸引高价值产业进驻，并为该区域经济增长注入新活力。   马国《东方日报》报道，前名为森那美种植的SD牙直利，与腾宇集团的子公司腾宇工业园区签署合作备忘录，双方将从现在至2025年3月31日致力达成正式协议。   该工业园将开发于SD牙直利位于柔佛古来的641英亩优质土地，并包含一座太阳能发电园区，为工业园区提供清洁能源，严格遵守环保标准，并采取永续发展实践。   发展绿色工业园   这个工业园区将定位为物流、高端制造和绿色能源技术等产业的中心，并将提供多元的厂房选项，从半独立到超大厂房，满足不同企业需求。   SD牙直利董事经理莫哈末哈米表示，这项合作将释放公司的土地价值，并为股东创造更多回报。   “SD牙直利致力推动永续发展，这座工业园将促进柔新经济特区内的经济增长。与腾宇集团的合作是我们拓展新业务领域的重要策略之一，以进一步释放柔佛地库价值，并为当地社区创造更多的发展机遇。”   与此同时，腾宇集团执行董事兼集团总裁陈帝荣指出，这项目不仅符合高标准的环保要求，还将吸引国内外高价值产业进驻，促进经济多元化发展。   来源： [阅读原文](<https://mp.weixin.qq.com/s/lbSQIAgKz4ZaAROP7ZruUA>)

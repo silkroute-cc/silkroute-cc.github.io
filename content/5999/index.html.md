@@ -1,0 +1,13 @@
+# EVE Energy accelerates global expansion with second-phase launch at Malaysia battery plant
+
+- Route: /5999/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/5999/
+
+中国锂电池头部企业亿纬锂能（EVE Energy）位于马来西亚的制造基地二期工程已完工，项目总规划 15 条产线、年产能 6.84 亿颗电池电芯，一期投资达 4.2 亿美元，聚焦方形与圆柱形锂离子电池生产，为公司在东南亚的客户（涵盖两轮车、储能、消费电子）提供本地化供货能力，是新工业大蓝图（NIMP 2030）下中资电池企业最大规模的在马产能落地之一。
+
+## Body
+
+\*\*Gasgoo Munich-\*\*EVE Energy has marked another step in its global expansion with the completion of the second-phase facility at its Malaysia manufacturing base, underscoring a faster pace in overseas capacity build-out and internationalization.     Image source: EVE Energy   The Malaysia project began operations on February 16, 2025. Designed for a total annual capacity of 684 million battery cells across 15 production lines, the first phase carries a planned investment of up to US$420 million. The facility focuses on prismatic and cylindrical lithium-ion batteries and serves as a strategic manufacturing hub for EVE Energy's Southeast Asian market presence.   With the second-phase buildings now completed, the Malaysia base has entered a new stage characterized by scaled production and more efficient operational management. The expansion is expected to strengthen the company's overseas manufacturing delivery capabilities while laying the groundwork for future capacity ramp-up, productivity gains and deeper local supply-chain integration.   Beyond Southeast Asia, EVE Energy is advancing capacity projects across key global markets. In Hungary, the company plans to invest €1 billion in a 28 GWh facility with three production lines, targeting mass production in 2027 and focusing on its 46-series battery cells to deepen penetration into the European new energy vehicle market. In the United States, a separate project is designed for 21 GWh across four lines, also slated for production in 2027, with an emphasis on prismatic lithium iron phosphate batteries. The US project carries a total investment of US$2.64 billion, with EVE Energy's American unit contributing US$150 million in cash for a 10% stake, aligning local manufacturing with policy and market requirements.   Earlier this year, on January 30, 2026, HYD Investment Limited, the joint venture EVE Energy co-built with Huayou Cobalt and PT Daaz Bara Lestari, signed a framework agreement with Indonesia's state-owned miner ANTAM and the Indonesia Battery Corporation ("IBC"), committing to develop a full new-energy industry chain in Indonesia.    🔗  来源：Gasgoo（盖世汽车，中国汽车与新能源产业媒体） · 原文： [点击阅读原文](<https://autonews.gasgoo.com/articles/news/eve-energy-accelerates-global-expansion-with-second-phase-launch-at-malaysia-battery-plant-2026483840841682945>)

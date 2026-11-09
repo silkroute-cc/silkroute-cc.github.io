@@ -1,0 +1,13 @@
+# 活动预告｜2026“茶和天下·六韵雅集”火热报名中，邀您沉浸式体验东方茶文化之美
+
+- Route: /5969/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/5969/
+
+2026年国际茶日之际，吉隆坡中国文化中心联合马来西亚紫藤文化企业集团举办“茶和天下·六韵雅集”活动。以中国六大茶类为主线，甄选代表性产茶区特色茶品，通过沉浸式茶席体验、主题分享、茶文化展览、香道与传统拓印体验等形式，呈现东方茶文化之美。活动将于5月23日在吉隆坡中国文化中心举行，免费参与。
+
+## Body
+
+当中国茶香，遇见蕉风椰雨。   一席茶，一段风土；六种茶韵，六重东方美学。   在2026年国际茶日到来之际，吉隆坡中国文化中心将联合马来西亚紫藤文化企业集团举办2026"茶和天下·六韵雅集"，以中国六大茶类为主线，甄选涵盖各大代表性产茶区的特色茶品，通过"茶的六韵"呈现东方茶文化之美，带领公众感受中国茶文化所蕴含的风土、人文与生活美学。     本次活动特别打造开放式、沉浸式文化体验空间，融合茶文化、艺术与互动体验，让公众在轻松交流与品茗之间，感受"可闻、可品、可互动"的东方雅致生活。   活动现场将设置沉浸式茶席体验、主题分享、茶文化与图片展览、香道与传统拓印体验等，为公众带来一场兼具文化气息与生活美学的东方雅集。       【活动详情】   活动名称：   2026"茶和天下·六韵雅集"   日期：   2026年5月23日（星期六）   时间：   11:00AM – 3:00PM   地点：   吉隆坡中国文化中心   参与方式：   免费参与（需提前报名）   报名链接：   https://forms.gle/Y5wi3SnBLxGxf2E66   活动询问：   +6019-627 1048 / +603-2181 2456   电邮：   project@chinaculturalcentre.my   欢迎大家一同走入茶香氤氲之间，感受跨越山海而来的东方茶韵。     Registration Now Open for "Tea for Harmony·Six Elegances Yaji Cultural Salon 2026"   Discover the beauty of Chinese tea culture through an immersive cultural experience inspired by China's six major tea traditions.   In conjunction with International Tea Day, the China Cultural Centre in Kuala Lumpur, in collaboration with Purple Cane Group, proudly presents "Tea for Harmony·Six Elegances Yaji Cultural Salon 2026", a specially curated cultural gathering celebrating the richness of Chinese tea, heritage, and Oriental aesthetics.   Centred around China's six major tea categories, the event features carefully selected teas representing renowned tea-producing regions across China. Through the concept of "Six Elegances", guests are invited to explore the diverse landscapes, traditions, and artistic spirit embodied within Chinese tea culture.   Designed as an open and immersive cultural experience, the programme brings together tea appreciation, cultural sharing sessions, exhibitions, traditional arts, and interactive experiences, offering the public a refined journey into the charm of Chinese cultural living.   Programme highlights include immersive tea sessions, tea culture and photo exhibitions, Traditional Chinese Incense and Traditional rubbing art experiences.   【Event Details】   Event Title:   Tea for Harmony·Six Elegances Yaji Cultural Salon 2026   Date:   23 May 2026 (Saturday)   Time:   11:00AM – 3:00PM   Venue:   China Cultural Centre in Kuala Lumpur   Admission:   Free Admission (Registration Required)   Registration Link:   https://forms.gle/G9oDRKVJTxkJHgpR8   Enquiries:   +6019-627 1048 / +603-2181 2456   Email:   project@chinaculturalcentre.my   Join us for an afternoon of tea, culture, and Oriental elegance, and experience the timeless charm of Chinese tea culture.

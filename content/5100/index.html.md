@@ -1,0 +1,13 @@
+# 金务大获准兴建沙巴水电站  混合浮动太阳能发电
+
+- Route: /5100/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/5100/
+
+（吉隆坡6日讯）金务大（Gamuda Bhd）公布，联营公司建设Ulu Padas水电项目已获得沙巴能源监管机构的批准。 金务大向大马交易所报备，该项目一旦完工，预计将于2030年实现预定的商业营运，每年创造超过4亿令吉的收入。 金务大在2023年组成的联营公司UPP Holdings私人有限公司拥有45%股权，而沙巴能源公司（SEC）持40%，以及余下15%由Kerjaya Kagum Hitech JV私人有限公司持有。 金务大指出，将通过内部资金和外部贷款…
+
+## Body
+
+（吉隆坡6日讯）金务大（Gamuda Bhd）公布，联营公司建设Ulu Padas水电项目已获得沙巴能源监管机构的批准。   金务大向大马交易所报备，该项目一旦完工，预计将于2030年实现预定的商业营运，每年创造超过4亿令吉的收入。   金务大在2023年组成的联营公司UPP Holdings私人有限公司拥有45%股权，而沙巴能源公司（SEC）持40%，以及余下15%由Kerjaya Kagum Hitech JV私人有限公司持有。   金务大指出，将通过内部资金和外部贷款进行该项目，涉及在沙巴丹南和实必丹建设一座大坝，平均每年将提供1052千兆瓦时（GWh）的清洁能源。   此外，一座混合浮动太阳能发电厂也将整合到水库区，到2031年将促进清洁能源发电。   UPP Holdings独资拥有的Upper Padas Power私人有限公司（UPPSB）将通过与承购商沙巴电力公司签订的40年购电协议（PPA），设计、建造和拥有该水电项目。   在签署40年购电协议后，主要建设预计将于2025年开始，料在6年内完成。   金务大称，该项目预计将提高沙巴州发电量15%，并使该州的可再生能源组合增加一倍。   截稿时，该股跌9仙或1.19%，报7.49令吉，市值达209亿令吉。   KUALA LUMPUR (Sept 6): Gamuda Bhd said on Friday that its joint venture (JV) to build the Ulu Padas hydroelectric project has been approved by the Sabah energy regulator.   Once completed, the project is expected to achieve scheduled commercial operation by the end of 2030 and generate revenue exceeding RM400 million a year, Gamuda said in an exchange filing.   Gamuda has a 45% stake in the joint venture under UPP Holdings Sdn Bhd that was formed in October 2023, while Sabah Energy Corp Sdn Bhd owns 40% and Kerjaya Kagum Hitech JV Sdn Bhd holds the remaining 15%.   The project, which will be funded by a mix of internal funds and external borrowings, involves the construction of a dam located in the Tenom and Sipitang districts of Sabah and will deliver an average of 1,052 Gigawatt hours (GWh) of clean energy per annum. A hybrid floating solar plant will also be integrated into the reservoir area that will boost clean energy generation by 2031, according to Gamuda.   UPP Holdings’s wholly owned Upper Padas Power Sdn Bhd (UPPSB) will design, build, and operate the hydroelectric project via a 40-year power purchase agreement (PPA) to be entered into with the offtaker, Sabah Electricity Sdn Bhd, Gamuda said.   Major construction is expected to start in 2025, after UPPSB signs the 40-year PPA. Construction is estimated to be completed within six years.   The project is expected to increase Sabah’s electricity generation by 15% and double the state’s renewable energy mix, according to Gamuda.   At the time of writing on Friday, Gamuda’s share price was trading nine sen or 1.19% lower at RM7.49, valuing the company at RM20.90 billion.   来源： [阅读原文](<https://mp.weixin.qq.com/s/UhdXBpaNlsukkC2Gsvfo-w>)

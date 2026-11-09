@@ -1,0 +1,13 @@
+# AIMS与金务大合作 赛城建第二间数据中心
+
+- Route: /3720/
+- Language: und
+- Type: post
+- Review Status: published
+- Canonical: https://silkroute.cc/3720/
+
+（吉隆坡8日讯）TIME dotCom Bhd数据中心臂膀AIMS Group将兴建AIMS Cyberjaya Block 2，以满足马来西亚对数据中心空间的巨大需求。 AIMS今日发布文告指出，这也符合AIMS加速在亚洲扩展数据中心业务的计划。该集团将与金务大（Gamuda Bhd）独资子公司Gamuda Engineering私人有限公司合作建设。 该集团估计，将在今年杪完成工程。 TIME dotCom升0.18%或1仙，至5.65令吉，市值达103亿9…
+
+## Body
+
+（吉隆坡8日讯）TIME dotCom Bhd数据中心臂膀AIMS Group将兴建AIMS Cyberjaya Block 2，以满足马来西亚对数据中心空间的巨大需求。   AIMS今日发布文告指出，这也符合AIMS加速在亚洲扩展数据中心业务的计划。该集团将与金务大（Gamuda Bhd）独资子公司Gamuda Engineering私人有限公司合作建设。   该集团估计，将在今年杪完成工程。   TIME dotCom升0.18%或1仙，至5.65令吉，市值达103亿9000万令吉，金务大则企于4.10令吉，市值达109亿1000万令吉。   KUALA LUMPUR (May 8): Data centre arm of TIME dotCom Bhd, AIMS Group will construct AIMS Cyberjaya Block 2 to meet the overwhelming demand for data centre space in Malaysia.   This is also in line with AIMS’ plan to accelerate the expansion of its data centre business across Asia, AIMS said in a statement on Monday (May 8), adding that the group will collaborate with Gamuda Engineering Sdn Bhd, a wholly-owned subsidiary of Gamuda Bhd, for the construction.   AIMS Cyberjaya Block 2 is a turnkey project featuring a purpose-built data centre with improved efficiency and building structure, and a total IT load of 8MW.   The construction is due to be completed by the end of 2023.   AIMS chief executive officer Chiew Kok Hin said that the group achieved more than 90% occupancy in AIMS Cyberjaya Block 1 in less than a year.   “This has accelerated our plans to expand our operational facilities in Malaysia with the construction of Block 2 to not only meet overwhelming response in the region, but also aligns with our initiative towards driving environmental, social and governance practices within the company and facilitating innovation in the industry,” said Chiew.   Gamuda's "Next-Gen Digital IBS" solution, which employs IR 4.0 technology, will be used to construct AIMS Cyberjaya Block 2.   “Our Gamuda Next-Gen Digital IBS is a sustainable construction innovation that enables fast-tracked delivery and increased certainty for our business partners, leveraging our digital construction ecosystem from cloud-based design to AI-IoT-enabled robotic manufacturing. We are excited to be part of AIMS’ longer-term expansion plans,” Gamuda Engineering executive director Lim Hui Yan.   TIME dotCom shares gained at 0.18% or 1 sen to RM5.65, giving it a market capitalisation of RM10.39 billion, while Gamuda shares traded unchanged at RM4.10 sen, valuing the company at RM10.91 billion.   来源： [阅读原文](<https://mp.weixin.qq.com/s/pP2V8O5mtK8YEXzDjLB4mg>)
