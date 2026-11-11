@@ -10,4 +10,4 @@
 
 ## Body
 
-[corporateevents](</categories/corporateevents/>) (40) [guideline](</categories/guideline/>) (108) [malaysia](</categories/malaysia/>) (36) [news](</categories/news/>) (3342) [organization](</categories/organization/>) (25) [publicwelfare](</categories/publicwelfare/>) (6) [showroom](</categories/showroom/>) (5) [study](</categories/study/>) (24) [travel](</categories/travel/>) (13) [un](</categories/un/>) (4)
+[corporateevents](</categories/corporateevents/>) (40) [guideline](</categories/guideline/>) (108) [malaysia](</categories/malaysia/>) (36) [news](</categories/news/>) (3350) [organization](</categories/organization/>) (25) [publicwelfare](</categories/publicwelfare/>) (6) [showroom](</categories/showroom/>) (5) [study](</categories/study/>) (24) [travel](</categories/travel/>) (13) [un](</categories/un/>) (4)
